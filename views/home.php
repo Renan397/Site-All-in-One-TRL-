@@ -42,7 +42,6 @@ do planeta, formando assim uma conexão extraordinária que pode mudar
 completamente a sociedade. Como ideia principal, que é buscar o
 desenvolvimento profissional de nossos clientes, a TRL Sites disponibiliza o
 seu site e a sua evolução!</p>
-</div>
 
 <div class="container" id="equipe">
   <div class="row">
@@ -56,6 +55,7 @@ seu site e a sua evolução!</p>
       Thiago
     </div>
   </div>
+</div>
 </div>
 
 </div>

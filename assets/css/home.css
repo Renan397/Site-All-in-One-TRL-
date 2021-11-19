@@ -14,7 +14,6 @@ body {
 }
 #texto_entrada {
     position: absolute;
-    text-align: center;
     width: 50%;
     margin-left: 25%;
     margin-top: 20%;
@@ -25,6 +24,6 @@ body {
 }
 #equipe {
     position: absolute;
-    margin-top: 60%;
+    margin-top: 5%;
     margin-left: 15%;
 }
