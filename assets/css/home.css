@@ -10,14 +10,12 @@ body {
 }
 #texto_entrada {
     position: absolute;
-    margin-left: 25%;
+    width: 50%;
+    margin-left: 35%;
     margin-top: 20%;
 }
 .titulo_entrada {
     text-align: center;
     font-weight: bold;
-}
-#img_maozinha {
-    margin-left: 40%;
 }
 

@@ -6,7 +6,6 @@
   $js_file = $js."home.js";
   $img_files = array();
   $img_files[0] = $img."logo.png";
-  $img_files[1] = $img."img_mao1.png";
   ?>
 <head>
 <title>TRL Sites - Bem-vindo!</title>
@@ -29,15 +28,20 @@
 
 <div id="texto_entrada">
 <h3 class="titulo_entrada">Bem-Vindo!</h3>
-<<<<<<< HEAD
-<p class="texto_entrada">Em breve, a TRL Sites estará desenvolvendo o website ideal para você e o seu negócio!</p>
-<p>Oi oi</p>
-<p>Para de falhar marcio</p>
-<img id="img_maozinha" src="<?=$img_files[1]?>" width = "80px"; height = "60px";>
-=======
+<p><b>História:</b> A organização nasceu a partir do trabalho de conclusão de uma
+matéria no curso de informática para Internet, no qual foi necessário o
+desenvolvimento de um site. Por isso, Luciano Júnior, Thiago Martins e Renan
+Santos decidiram montar uma empresa para padronizar e profissionalizar o site
+a ser desenvolvido. Depois de muitas reuniões, decidiram em conjunto o nome
+da empresa como TRL Sites, porque tem as iniciais dos seus fundadores, estas
+são as três forças da empresa, comprovando o conjunto de ideias que
+apresentam. Por outro lado, nossa logomarca enfatiza a importância do uso da
+Internet, pois com ela é possível estabelecer conexões com todos os lugares
+do planeta, formando assim uma conexão extraordinária que pode mudar
+completamente a sociedade. Como ideia principal, que é buscar o
+desenvolvimento profissional de nossos clientes, o TRL Sites disponibiliza o
+seu site e a sua evolução!</p>
 
-
->>>>>>> 8829aa9d9bf6310f200305cbbb5ff0badd94c4b2
 </div>
 
 </div>
