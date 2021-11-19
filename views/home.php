@@ -22,11 +22,9 @@
 
 <div id="conteudo">
 
-<div id="img_logo_trl">
-<a href="#"><img src="<?=$img_files[0]?>" width = "270px"; height = "220px"; ></a>
-</div>
+<div id="conteudo1">
+<a href="#"><img id="img_logo" src="<?=$img_files[0]?>" width = "270px"; height = "220px"; ></a>
 
-<div id="texto_entrada">
 <h3 class="titulo_entrada">Bem-Vindo!</h3><br><br>
 <h4 class="titulo_entrada2">História</h4>
 <p class="historia">Nossa organização nasceu a partir do trabalho de conclusão de uma

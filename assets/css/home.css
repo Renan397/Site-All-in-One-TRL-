@@ -8,15 +8,13 @@ body {
     margin: 0 auto;
     display: flex;
 }
-#img_logo_trl {
-    position: absolute;
-    margin-left: 43%;
-}
-#texto_entrada {
+#conteudo1 {
     position: absolute;
     width: 50%;
     margin-left: 25%;
-    margin-top: 20%;
+}
+#img_logo {
+    margin-left: 35%;
 }
 .titulo_entrada {
     text-align: center;
