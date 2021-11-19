@@ -23,9 +23,8 @@ body {
     text-align: center;
     font-weight: bold;
 }
-.historia{
-    text-align: justify;
-    text-align-last: center;
-    font-family: Arial, Helvetica, sans-serif;
-    
+#equipe {
+    position: absolute;
+    margin-top: 60%;
+    margin-left: 15%;
 }
