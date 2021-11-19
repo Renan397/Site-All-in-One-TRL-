@@ -26,7 +26,7 @@
 <a href="#"><img id="img_logo" src="<?=$img_files[0]?>" width = "270px"; height = "220px"; ></a>
 
 <h3 class="titulo_entrada">Bem-Vindo!</h3><br><br>
-<h4 class="titulo_entrada2">História</h4>
+<h4 class="titulo_historia">História</h4>
 <p class="historia">Nossa organização nasceu a partir do trabalho de conclusão de uma
 matéria no curso de informática para Internet, no qual foi necessário o
 desenvolvimento de um site. Por isso, Luciano Júnior, Thiago Martins e Renan

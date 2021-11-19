@@ -20,6 +20,9 @@ body {
     text-align: center;
     font-weight: bold;
 }
+.titulo_historia {
+    text-align: center;
+}
 #equipe {
     position: absolute;
     margin-top: 5%;
