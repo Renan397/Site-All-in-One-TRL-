@@ -44,14 +44,14 @@ seu site e a sua evolução!</p>
 
 </div>
 <div class="container">
-  <div class="equipe">
-    <div class="luciano">
+  <div class="row">
+    <div class="col">
       Column
     </div>
-    <div class="renan">
+    <div class="col">
       Column
     </div>
-    <div class="thiago">
+    <div class="col">
       Column
     </div>
   </div>
