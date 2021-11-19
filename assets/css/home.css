@@ -23,12 +23,12 @@ body {
 .titulo_historia {
     text-align: center;
 }
+.historia{
+    text-align: justify;
+}
 #equipe {
     position: absolute;
     margin-top: 5%;
     margin-left: 15%;
     color: green;
-}
-.historia{
-    text-align: justify;
 }
