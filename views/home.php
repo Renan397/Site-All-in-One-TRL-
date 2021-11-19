@@ -45,7 +45,7 @@ seu site e a sua evolução!</p>
 <div class="container" id="equipe">
   <div class="row">
     <div class="col">
-    <img id="foto_luciano" src="<?=$img_files[1]?>
+    <img id="foto_luciano" src="<?=$img_files[1]?>">
     </div>
     <div class="col">
      Renan
