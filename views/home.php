@@ -30,7 +30,7 @@
 <div id="texto_entrada">
 <h3 class="titulo_entrada">Bem-Vindo!</h3>
 
-<img id="img_maozinha" src="<?=$img_files[1]?>" width = "80px"; height = "60px";>
+
 </div>
 
 </div>
