@@ -29,9 +29,8 @@ body {
 #equipe {
     position: absolute;
     margin-top: 5%;
-    color: green;
 }
 #foto_luciano{
     width: 250px; 
-    height: 500px;
+    height: 250px;
 }
