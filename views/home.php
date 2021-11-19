@@ -47,13 +47,13 @@ seu site e a sua evolução!</p>
 <div class="container">
   <div class="row">
     <div class="col">
-      Column
+      Luciano
     </div>
     <div class="col">
-      Column
+     Renan
     </div>
     <div class="col">
-      Column
+      Thiago
     </div>
   </div>
 </div>
