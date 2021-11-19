@@ -29,7 +29,7 @@
 
 <div id="texto_entrada">
 <h3 class="titulo_entrada">Bem-Vindo!</h3>
-<p class="texto_entrada">Em breve, a TRL Sites estará desenvolvendo o website ideal para você e o seu negócio!</p>
+<p class="texto_entrada">Em breve, a TRL Sites estará desenvolvendo o website ideal para você e o seu negócio! Oi Renan</p>
 <p>Oi</p>
 <img id="img_maozinha" src="<?=$img_files[1]?>" width = "80px"; height = "60px";>
 </div>
