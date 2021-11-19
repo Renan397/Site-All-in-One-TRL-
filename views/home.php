@@ -44,10 +44,19 @@ desenvolvimento profissional de nossos clientes, a TRL Sites disponibiliza o
 seu site e a sua evolução!</p>
 
 </div>
-<div id="equipe">
-<img src="img/foto_luciano">
+<div class="container">
+  <div class="equipe">
+    <div class="luciano">
+      Column
+    </div>
+    <div class="renan">
+      Column
+    </div>
+    <div class="thiago">
+      Column
+    </div>
+  </div>
 </div>
-
 </div>
 
 
