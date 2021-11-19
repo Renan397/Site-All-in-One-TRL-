@@ -29,8 +29,15 @@
 
 <div id="texto_entrada">
 <h3 class="titulo_entrada">Bem-Vindo!</h3>
+<<<<<<< HEAD
+<p class="texto_entrada">Em breve, a TRL Sites estará desenvolvendo o website ideal para você e o seu negócio!</p>
+<p>Oi oi</p>
+<p>Para de falhar marcio</p>
+<img id="img_maozinha" src="<?=$img_files[1]?>" width = "80px"; height = "60px";>
+=======
 
 
+>>>>>>> 8829aa9d9bf6310f200305cbbb5ff0badd94c4b2
 </div>
 
 </div>
