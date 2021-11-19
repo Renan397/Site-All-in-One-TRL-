@@ -44,7 +44,7 @@ seu site e a sua evolução!</p>
 
 </div>
 <div id="equipe">
-
+olá galera do autizap 
 </div>
 
 </div>
