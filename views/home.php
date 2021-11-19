@@ -6,6 +6,7 @@
   $js_file = $js."home.js";
   $img_files = array();
   $img_files[0] = $img."logo.png";
+  $img_files[1] = $img."foto_luciano.jpg";
   ?>
 <head>
 <title>TRL Sites - Bem-vindo!</title>
@@ -44,7 +45,7 @@ seu site e a sua evolução!</p>
 <div class="container" id="equipe">
   <div class="row">
     <div class="col">
-      Luciano
+    <img id="foto_luciano" src="<?=$img_files[1]?>
     </div>
     <div class="col">
      Renan
