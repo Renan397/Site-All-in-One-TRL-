@@ -28,7 +28,7 @@
 
 <div id="texto_entrada">
 <h3 class="titulo_entrada">Bem-Vindo!</h3>
-<p><b>História:</b> A organização nasceu a partir do trabalho de conclusão de uma
+<p class="historia"><b>História:</b> A organização nasceu a partir do trabalho de conclusão de uma
 matéria no curso de informática para Internet, no qual foi necessário o
 desenvolvimento de um site. Por isso, Luciano Júnior, Thiago Martins e Renan
 Santos decidiram montar uma empresa para padronizar e profissionalizar o site
