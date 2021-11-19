@@ -24,3 +24,10 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     
 }
+#equipe{
+    position: absolute;
+    width: 50%;
+    margin-top: 50%;
+    margin-left: 35%;
+    background-color: green;
+}
