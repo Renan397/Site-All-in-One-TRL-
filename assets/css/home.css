@@ -10,11 +10,16 @@ body {
 }
 #conteudo1 {
     position: absolute;
-    width: 100%;
-    margin-left: 25%;
+    width: 60%;
+    margin-left: 20%;
 }
 #img_logo {
     margin-left: 35%;
+}
+.linha_txt {
+    background-color: #0069b3;
+    border-width: 2px;
+    width: 20%;
 }
 .titulo_entrada {
     text-align: center;

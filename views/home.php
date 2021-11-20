@@ -29,7 +29,7 @@
 <a href="#"><img id="img_logo" src="<?=$img_files[0]?>" width = "270px"; height = "220px"; ></a>
 
 <h3 class="titulo_entrada">Bem-Vindo!</h3><br><br>
-<h4 class="titulo_historia">História</h4>
+<h4 class="titulo_historia">TRL Sites</h4><hr class="linha_txt">
 <p class="texto_historia">Nossa organização nasceu a partir do trabalho de conclusão de uma
 matéria no curso de informática para Internet, no qual foi necessário o
 desenvolvimento de um site. Por isso, Luciano Júnior, Thiago Martins e Renan
@@ -45,7 +45,7 @@ desenvolvimento profissional de nossos clientes, a TRL Sites disponibiliza o
 seu site e a sua evolução!</p>
 
 <div class="container" id="equipe" style="width: 100%;">
-<h4 class="titulo_sobre_nos">Sobre nós</h4><br>
+<h4 class="titulo_sobre_nos">Sobre nós</h4><hr class="linha_txt"><br>
   <div class="row">
     <div class="col">
     <img id="foto_luciano" style="border-radius: 50%;" src="<?=$img_files[1]?>"><br><br>
@@ -80,15 +80,23 @@ seu site e a sua evolução!</p>
     funcional e seguro, utilizando as boas práticas que tenho em minha
     bagagem curricular.</p>
     </div>
-  </div>
+  </div><br>
   <div id="missao_visao_valores">
-    <h4 class="titulo_missao">Nossa Missão</h4>
+    <h4 class="titulo_missao">Missão, Visão e Valores</h4><hr class="linha_txt">
     <p class="texto_missao">Nossa empresa tem o objetivo de transformar ideias em projetos
     reais, com o auxílio da tecnologia. Além disso, vemos como missão do grupo
     TRL oferecer aos seus clientes novas formas de expandir seu negócio, de uma
     forma mais acessível, garantindo a segurança de poder investir em algo que
-    vai trazer bons retornos para seus empreendimentos.</p>
-    </div>
+    vai trazer bons retornos para seus empreendimentos.<br><br>
+    Prezamos muito pela ética, pontualidade com as entregas,
+    profissionalismo, dedicação, e o trabalho sempre feito com base na pluralidade
+    de ideias, sempre ouvindo todos os integrantes e discutindo o que pode ser
+    melhorado nos projetos.<br><br>
+    No futuro, pretendemos nos tornar uma empresa renomada, possibilitando cada vez
+    mais a prestação de serviços de qualidade aos nossos clientes, e nos tornando
+    uma referência nacional e internacional, na área de tecnologia da informação.
+  </p>
+  </div>
 </div>
 
 </div>
