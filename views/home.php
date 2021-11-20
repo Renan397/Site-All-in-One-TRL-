@@ -7,6 +7,8 @@
   $img_files = array();
   $img_files[0] = $img."logo.png";
   $img_files[1] = $img."foto_luciano.jpg";
+  $img_files[2] = $img."foto_renan.jpg";
+  $img_files[3] = $img."foto_thiago.jpg";
   ?>
 <head>
 <title>TRL Sites - Bem-vindo!</title>
@@ -28,7 +30,7 @@
 
 <h3 class="titulo_entrada">Bem-Vindo!</h3><br><br>
 <h4 class="titulo_historia">História</h4>
-<p class="historia">Nossa organização nasceu a partir do trabalho de conclusão de uma
+<p class="texto_historia">Nossa organização nasceu a partir do trabalho de conclusão de uma
 matéria no curso de informática para Internet, no qual foi necessário o
 desenvolvimento de um site. Por isso, Luciano Júnior, Thiago Martins e Renan
 Santos decidiram montar uma empresa para padronizar e profissionalizar o site
@@ -42,29 +44,58 @@ completamente a sociedade. Como ideia principal, que é buscar o
 desenvolvimento profissional de nossos clientes, a TRL Sites disponibiliza o
 seu site e a sua evolução!</p>
 
-<div class="container" id="equipe">
+<div class="container" id="equipe" style="width: 100%;">
+<h4 class="titulo_sobre_nos">Sobre nós</h4><br>
   <div class="row">
     <div class="col">
-    <img id="foto_luciano" src="<?=$img_files[1]?>">
+    <img id="foto_luciano" style="border-radius: 50%;" src="<?=$img_files[1]?>"><br><br>
+    <p class="texto_desc_func">Olá, sou o Luciano, gerente, cofundador e
+    desenvolvedor front-end da TRL. Tenho 18 anos, sou natural de
+    Fortaleza-CE. Atualmente, estou cursando informática para Internet,
+    pelo Instituto Federal de Educação, Ciência e Tecnologia - Campus
+    Guarulhos, na modalidade ensino médio técnico. Gosto muito de
+    desenvolver sistemas, sempre fui apaixonado por tecnologia, amo a
+    natureza, sou apaixonado por música e adoro estar conectado com
+    meus amigos e familiares.</p>
     </div>
     <div class="col">
-     Renan
+    <img id="foto_renan" style="border-radius: 50%;" src="<?=$img_files[2]?>"><br><br>
+    <p class="texto_desc_func">Eu sou o Renan, cofundador e
+    desenvolvedor front-end da TRL. Tenho 18 anos, sou natural de
+    Guarulhos-SP, onde estou me formando em Informática para Internet,
+    na modalidade ensino médio técnico, pelo IFSP (Instituto Federal de
+    Educação, Ciência e Tecnologia) Campus Guarulhos. Sempre fui
+    interessado na área da tecnologia, durante o curso aprendi diversas
+    coisas, a grande maioria voltada para a desenvolvimento de sistemas
+    para internet. Com meus conhecimentos, desejo auxiliar a empresa a
+    construir o melhor sistema para cada cliente.</p>
     </div>
     <div class="col">
-      Thiago
+    <img id="foto_thiago" style="border-radius: 50%;" src="<?=$img_files[3]?>"><br><br>
+    <p class="texto_desc_func">Eu sou o Thiago, cofundador e desenvolvedor
+    back-end da TRL-Sites. Tenho 18 anos, natural de Guarulhos-SP,
+    cursando informática para internet, pelo Instituto Federal de Tecnologia
+    e Ciências – Campus Guarulhos. Tenho prazer em desenvolver
+    sistemas e realizar os sonhos dos nossos clientes com um back-end
+    funcional e seguro, utilizando as boas práticas que tenho em minha
+    bagagem curricular.</p>
     </div>
   </div>
-</div>
+  <div id="missao_visao_valores">
+    <h4 class="titulo_missao">Nossa Missão</h4>
+    <p class="texto_missao">Nossa empresa tem o objetivo de transformar ideias em projetos
+    reais, com o auxílio da tecnologia. Além disso, vemos como missão do grupo
+    TRL oferecer aos seus clientes novas formas de expandir seu negócio, de uma
+    forma mais acessível, garantindo a segurança de poder investir em algo que
+    vai trazer bons retornos para seus empreendimentos.</p>
+    </div>
 </div>
 
+</div>
 </div>
 
 
 </body>
 <footer>
-  <?php
-  include_once "footer.php";
-  footer_home($img_files);
-  ?>
 </footer>
 </html>

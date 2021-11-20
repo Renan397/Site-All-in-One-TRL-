@@ -10,7 +10,7 @@ body {
 }
 #conteudo1 {
     position: absolute;
-    width: 50%;
+    width: 100%;
     margin-left: 25%;
 }
 #img_logo {
@@ -23,7 +23,19 @@ body {
 .titulo_historia {
     text-align: center;
 }
-.historia{
+.titulo_sobre_nos {
+    text-align: center;
+}
+.titulo_missao {
+    text-align: center;
+}
+.texto_historia{
+    text-align: justify;
+}
+.texto_desc_func {
+    text-align: justify;
+}
+.texto_missao {
     text-align: justify;
 }
 #equipe {
@@ -31,6 +43,16 @@ body {
     margin-top: 5%;
 }
 #foto_luciano{
-    width: 250px; 
-    height: 250px;
+    width: 180px; 
+    height: 180px;
 }
+#foto_renan{
+    width: 180px; 
+    height: 180px;
+}
+#foto_thiago{
+    width: 180px; 
+    height: 180px;
+}
+
+
