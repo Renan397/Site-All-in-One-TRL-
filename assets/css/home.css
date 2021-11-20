@@ -10,8 +10,8 @@ body {
 }
 #conteudo1 {
     position: absolute;
-    width: 60%;
-    margin-left: 20%;
+    width: 70%;
+    margin-left: 15%;
 }
 #img_logo {
     margin-left: 35%;
@@ -34,6 +34,9 @@ body {
 .titulo_missao {
     text-align: center;
 }
+.titulo_contato {
+    text-align: center;
+}
 .texto_historia{
     text-align: justify;
 }
@@ -43,9 +46,8 @@ body {
 .texto_missao {
     text-align: justify;
 }
-#equipe {
-    position: absolute;
-    margin-top: 5%;
+.texto_contato {
+    text-align: justify;
 }
 #foto_luciano{
     width: 180px; 

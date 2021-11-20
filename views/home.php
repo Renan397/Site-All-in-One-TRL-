@@ -2,6 +2,7 @@
 <html lang="pt-br">
   <?php
   include_once "config/config.php";
+  include_once "config/text_home.php";
   $css_file = $css."home.css";
   $js_file = $js."home.js";
   $img_files = array();
@@ -26,78 +27,93 @@
 <div id="conteudo">
 
 <div id="conteudo1">
-<a href="#"><img id="img_logo" src="<?=$img_files[0]?>" width = "270px"; height = "220px"; ></a>
 
-<h3 class="titulo_entrada">Bem-Vindo!</h3><br><br>
-<h4 class="titulo_historia">TRL Sites</h4><hr class="linha_txt">
-<p class="texto_historia">Nossa organização nasceu a partir do trabalho de conclusão de uma
-matéria no curso de informática para Internet, no qual foi necessário o
-desenvolvimento de um site. Por isso, Luciano Júnior, Thiago Martins e Renan
-Santos decidiram montar uma empresa para padronizar e profissionalizar o site
-a ser desenvolvido. Depois de muitas reuniões, decidiram em conjunto o nome
-da empresa como TRL Sites, porque tem as iniciais dos seus fundadores, estas
-são as três forças da empresa, comprovando o conjunto de ideias que
-apresentam. Por outro lado, nossa logomarca enfatiza a importância do uso da
-Internet, pois com ela é possível estabelecer conexões com todos os lugares
-do planeta, formando assim uma conexão extraordinária que pode mudar
-completamente a sociedade. Como ideia principal, que é buscar o
-desenvolvimento profissional de nossos clientes, a TRL Sites disponibiliza o
-seu site e a sua evolução!</p>
+<br><br><h3 class="titulo_entrada">Bem-Vindo!</h3><br><br>
+<div class="container">
+  <div class="row">
+    <div class="col-8"><h4 class="titulo_historia">TRL Sites</h4><hr class="linha_txt">
+    <p class="texto_historia"><?=$txt_historia?></p></div>
+    <div class="col-4">
+    <br><br><br><img id="img_logo" src="<?=$img_files[0]?>" width = "300px"; height = "250px";>
+    </div>
+  </div>
+</div>
 
-<div class="container" id="equipe" style="width: 100%;">
+
+<div class="container" id="equipe">
 <h4 class="titulo_sobre_nos">Sobre nós</h4><hr class="linha_txt"><br>
   <div class="row">
     <div class="col">
     <img id="foto_luciano" style="border-radius: 50%;" src="<?=$img_files[1]?>"><br><br>
-    <p class="texto_desc_func">Olá, sou o Luciano, gerente, cofundador e
-    desenvolvedor front-end da TRL. Tenho 18 anos, sou natural de
-    Fortaleza-CE. Atualmente, estou cursando informática para Internet,
-    pelo Instituto Federal de Educação, Ciência e Tecnologia - Campus
-    Guarulhos, na modalidade ensino médio técnico. Gosto muito de
-    desenvolver sistemas, sempre fui apaixonado por tecnologia, amo a
-    natureza, sou apaixonado por música e adoro estar conectado com
-    meus amigos e familiares.</p>
+    <p class="texto_desc_func"><?=$desc_func[0]?></p>
     </div>
     <div class="col">
     <img id="foto_renan" style="border-radius: 50%;" src="<?=$img_files[2]?>"><br><br>
-    <p class="texto_desc_func">Eu sou o Renan, cofundador e
-    desenvolvedor front-end da TRL. Tenho 18 anos, sou natural de
-    Guarulhos-SP, onde estou me formando em Informática para Internet,
-    na modalidade ensino médio técnico, pelo IFSP (Instituto Federal de
-    Educação, Ciência e Tecnologia) Campus Guarulhos. Sempre fui
-    interessado na área da tecnologia, durante o curso aprendi diversas
-    coisas, a grande maioria voltada para a desenvolvimento de sistemas
-    para internet. Com meus conhecimentos, desejo auxiliar a empresa a
-    construir o melhor sistema para cada cliente.</p>
+    <p class="texto_desc_func"><?=$desc_func[1]?></p>
     </div>
     <div class="col">
     <img id="foto_thiago" style="border-radius: 50%;" src="<?=$img_files[3]?>"><br><br>
-    <p class="texto_desc_func">Eu sou o Thiago, cofundador e desenvolvedor
-    back-end da TRL-Sites. Tenho 18 anos, natural de Guarulhos-SP,
-    cursando informática para internet, pelo Instituto Federal de Tecnologia
-    e Ciências – Campus Guarulhos. Tenho prazer em desenvolver
-    sistemas e realizar os sonhos dos nossos clientes com um back-end
-    funcional e seguro, utilizando as boas práticas que tenho em minha
-    bagagem curricular.</p>
+    <p class="texto_desc_func"><?=$desc_func[2]?></p>
     </div>
   </div><br>
-  <div id="missao_visao_valores">
-    <h4 class="titulo_missao">Missão, Visão e Valores</h4><hr class="linha_txt">
-    <p class="texto_missao">Nossa empresa tem o objetivo de transformar ideias em projetos
-    reais, com o auxílio da tecnologia. Além disso, vemos como missão do grupo
-    TRL oferecer aos seus clientes novas formas de expandir seu negócio, de uma
-    forma mais acessível, garantindo a segurança de poder investir em algo que
-    vai trazer bons retornos para seus empreendimentos.<br><br>
-    Prezamos muito pela ética, pontualidade com as entregas,
-    profissionalismo, dedicação, e o trabalho sempre feito com base na pluralidade
-    de ideias, sempre ouvindo todos os integrantes e discutindo o que pode ser
-    melhorado nos projetos.<br><br>
-    No futuro, pretendemos nos tornar uma empresa renomada, possibilitando cada vez
-    mais a prestação de serviços de qualidade aos nossos clientes, e nos tornando
-    uma referência nacional e internacional, na área de tecnologia da informação.
-  </p>
+</div>
+
+<div class="container" id="mvv_oferta">
+  <div class="row">
+    <div class="col-6"> <h4 class="titulo_missao">Missão, Visão e Valores</h4><hr class="linha_txt">
+    <p class="texto_missao"><?=$txt_missao_visao_valores?></p>
+    </div>
+    <div class="col-6">Serviços da empresa</div>
   </div>
 </div>
+
+<br><h4 class="titulo_contato">Contato</h4><hr class="linha_txt">
+<p class="texto_contato">Se interessou pelos nossos serviços? Preencha o formulário abaixo com suas informações e entraremos em contato!</p>
+<form class="row g-3">
+  <div class="col-md-6">
+    <label for="inputEmail4" class="form-label">Email</label>
+    <input type="email" class="form-control" id="inputEmail4">
+  </div>
+  <div class="col-md-6">
+    <label for="inputPassword4" class="form-label">Password</label>
+    <input type="password" class="form-control" id="inputPassword4">
+  </div>
+  <div class="col-12">
+    <label for="inputAddress" class="form-label">Address</label>
+    <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+  </div>
+  <div class="col-12">
+    <label for="inputAddress2" class="form-label">Address 2</label>
+    <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+  </div>
+  <div class="col-md-6">
+    <label for="inputCity" class="form-label">City</label>
+    <input type="text" class="form-control" id="inputCity">
+  </div>
+  <div class="col-md-4">
+    <label for="inputState" class="form-label">State</label>
+    <select id="inputState" class="form-select">
+      <option selected>Choose...</option>
+      <option>...</option>
+    </select>
+  </div>
+  <div class="col-md-2">
+    <label for="inputZip" class="form-label">Zip</label>
+    <input type="text" class="form-control" id="inputZip">
+  </div>
+  <div class="col-12">
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" id="gridCheck">
+      <label class="form-check-label" for="gridCheck">
+        Check me out
+      </label>
+    </div>
+  </div>
+  <div class="col-12">
+    <button type="submit" class="btn btn-primary">Enviar</button>
+  </div>
+</form>
+
 
 </div>
 </div>
