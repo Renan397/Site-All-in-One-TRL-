@@ -25,28 +25,10 @@ body {
     text-align: center;
     font-weight: bold;
 }
-.titulo_historia {
+.titulos {
     text-align: center;
 }
-.titulo_sobre_nos {
-    text-align: center;
-}
-.titulo_missao {
-    text-align: center;
-}
-.titulo_contato {
-    text-align: center;
-}
-.texto_historia{
-    text-align: justify;
-}
-.texto_desc_func {
-    text-align: justify;
-}
-.texto_missao {
-    text-align: justify;
-}
-.texto_contato {
+.textos {
     text-align: justify;
 }
 #foto_luciano{

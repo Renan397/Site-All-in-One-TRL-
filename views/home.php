@@ -2,7 +2,8 @@
 <html lang="pt-br">
   <?php
   include_once "config/config.php";
-  include_once "config/text_home.php";
+  $txt_file = $txt."text_home.php";
+  include_once $txt_file;
   $css_file = $css."home.css";
   $js_file = $js."home.js";
   $img_files = array();
@@ -31,8 +32,8 @@
 <br><br><h3 class="titulo_entrada">Bem-Vindo!</h3><br><br>
 <div class="container">
   <div class="row">
-    <div class="col-8"><h4 class="titulo_historia">TRL Sites</h4><hr class="linha_txt">
-    <p class="texto_historia"><?=$txt_historia?></p></div>
+    <div class="col-8"><h4 class="titulos">TRL Sites</h4><hr class="linha_txt">
+    <p class="textos"><?=$txt_historia?></p></div>
     <div class="col-4">
     <br><br><br><img id="img_logo" src="<?=$img_files[0]?>" width = "300px"; height = "250px";>
     </div>
@@ -41,34 +42,34 @@
 
 
 <div class="container" id="equipe">
-<h4 class="titulo_sobre_nos">Sobre nós</h4><hr class="linha_txt"><br>
+<h4 class="titulos">Sobre nós</h4><hr class="linha_txt"><br>
   <div class="row">
     <div class="col">
     <img id="foto_luciano" style="border-radius: 50%;" src="<?=$img_files[1]?>"><br><br>
-    <p class="texto_desc_func"><?=$desc_func[0]?></p>
+    <p class="textos"><?=$desc_func[0]?></p>
     </div>
     <div class="col">
     <img id="foto_renan" style="border-radius: 50%;" src="<?=$img_files[2]?>"><br><br>
-    <p class="texto_desc_func"><?=$desc_func[1]?></p>
+    <p class="textos"><?=$desc_func[1]?></p>
     </div>
     <div class="col">
     <img id="foto_thiago" style="border-radius: 50%;" src="<?=$img_files[3]?>"><br><br>
-    <p class="texto_desc_func"><?=$desc_func[2]?></p>
+    <p class="textos"><?=$desc_func[2]?></p>
     </div>
   </div><br>
 </div>
 
 <div class="container" id="mvv_oferta">
   <div class="row">
-    <div class="col-6"> <h4 class="titulo_missao">Missão, Visão e Valores</h4><hr class="linha_txt">
-    <p class="texto_missao"><?=$txt_missao_visao_valores?></p>
+    <div class="col-6"> <h4 class="titulos">Missão, Visão e Valores</h4><hr class="linha_txt">
+    <p class="textos"><?=$txt_missao_visao_valores?></p>
     </div>
     <div class="col-6">Serviços da empresa</div>
   </div>
 </div>
 
-<br><h4 class="titulo_contato">Contato</h4><hr class="linha_txt">
-<p class="texto_contato">Se interessou pelos nossos serviços? Preencha o formulário abaixo com suas informações e entraremos em contato!</p>
+<br><h4 class="titulos">Contato</h4><hr class="linha_txt">
+<p class="textos">Se interessou pelos nossos serviços? Preencha o formulário abaixo com suas informações e entraremos em contato!</p>
 <form class="row g-3">
   <div class="col-md-6">
     <label for="inputEmail4" class="form-label">Email</label>
