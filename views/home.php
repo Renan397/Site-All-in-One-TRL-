@@ -11,7 +11,10 @@
   $img_files[1] = $img."foto_luciano.jpg";
   $img_files[2] = $img."foto_renan.jpg";
   $img_files[3] = $img."foto_thiago.jpeg";
-  $img_files[4] = $img."missao_visao_valores.png";
+  $img_files[4] = $img."pacote_mini.png";
+  $img_files[5] = $img."pacote_medi.png";
+  $img_files[6] = $img."pacote_max.png";
+  $img_files[7] = $img."missao_visao_valores.png";
   ?>
 <head>
 <title>TRL Sites - Bem-vindo!</title>
@@ -39,9 +42,12 @@
     <div class="col-4"><br>
     <div class="col-6" id="slides_servicos">
     <figure id="fig_slides">
-       <img src="<?=$img_files[1]?>" class="imgs_slides">
-       <img src="<?=$img_files[2]?>" class="imgs_slides">
-       <img src="<?=$img_files[3]?>" class="imgs_slides">
+       <img src="<?=$img_files[4]?>" style="width: 320px;
+    height: 430px;" class="imgs_slides">
+       <img src="<?=$img_files[5]?>" style="width: 320px;
+    height: 430px;" class="imgs_slides">
+       <img src="<?=$img_files[6]?>" style="width: 320px;
+    height: 430px;" class="imgs_slides">
       </figure>
     </div> 
   </div>
@@ -83,7 +89,7 @@
     <p class="textos"><?=$txt_missao_visao_valores?></p>
     </div>
     <div class="col-6">
-    <img src="<?=$img_files[4]?>">
+    <img src="<?=$img_files[7]?>">
     </div>
   </div>
 </div>
