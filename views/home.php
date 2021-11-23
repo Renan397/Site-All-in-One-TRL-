@@ -38,21 +38,20 @@
 <div class="container" id="servicos">
   <div class="row">
     <div class="col-8"><h4 class="titulos">Serviços</h4><hr class="linha_txt">
-    <p class="textos"><?=$txt_servicos?></p></div>
-    <div class="col-4"><br>
-    <div class="col-6" id="slides_servicos">
-    <figure id="fig_slides">
-       <img src="<?=$img_files[4]?>" style="width: 320px;
-    height: 430px;" class="imgs_slides">
-       <img src="<?=$img_files[5]?>" style="width: 320px;
-    height: 430px;" class="imgs_slides">
-       <img src="<?=$img_files[6]?>" style="width: 320px;
-    height: 430px;" class="imgs_slides">
-      </figure>
-    </div> 
+    <p class="textos"><?=$txt_servicos?></p>
   </div>
   </div>
-</div><br>
+</div>
+  <div id="slides_servicos">
+      <figure id="fig_slides">
+        <img src="<?=$img_files[4]?>" style="width: 800px;
+      height: 450px;" class="imgs_slides">
+        <img src="<?=$img_files[5]?>" style="width: 800px;
+      height: 450px;" class="imgs_slides">
+        <img src="<?=$img_files[6]?>" style="width: 800px;
+      height: 450px;" class="imgs_slides">
+        </figure>
+  </div><br>
 
 <div class="container">
   <div class="row">
