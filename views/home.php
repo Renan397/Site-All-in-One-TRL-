@@ -37,7 +37,7 @@
     <p class="textos"><?=$txt_servicos?></p></div>
     <div class="col-4"><br>
     <div class="col-6" id="slides_servicos">
-    <figure>
+    <figure id="fig_slides">
        <img src="<?=$img_files[1]?>" class="imgs_slides">
        <img src="<?=$img_files[2]?>" class="imgs_slides">
        <img src="<?=$img_files[3]?>" class="imgs_slides">
@@ -86,50 +86,7 @@
 
 <br><h4 class="titulos">Contato</h4><hr class="linha_txt">
 <p class="textos" id="txt_contato"><?=$txt_contato?></p>
-<form class="row g-3">
-  <div class="col-md-6">
-    <label for="inputEmail4" class="form-label">Email</label>
-    <input type="email" class="form-control" id="inputEmail4">
-  </div>
-  <div class="col-md-6">
-    <label for="inputPassword4" class="form-label">Password</label>
-    <input type="password" class="form-control" id="inputPassword4">
-  </div>
-  <div class="col-12">
-    <label for="inputAddress" class="form-label">Address</label>
-    <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
-  </div>
-  <div class="col-12">
-    <label for="inputAddress2" class="form-label">Address 2</label>
-    <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
-  </div>
-  <div class="col-md-6">
-    <label for="inputCity" class="form-label">City</label>
-    <input type="text" class="form-control" id="inputCity">
-  </div>
-  <div class="col-md-4">
-    <label for="inputState" class="form-label">State</label>
-    <select id="inputState" class="form-select">
-      <option selected>Choose...</option>
-      <option>...</option>
-    </select>
-  </div>
-  <div class="col-md-2">
-    <label for="inputZip" class="form-label">Zip</label>
-    <input type="text" class="form-control" id="inputZip">
-  </div>
-  <div class="col-12">
-    <div class="form-check">
-      <input class="form-check-input" type="checkbox" id="gridCheck">
-      <label class="form-check-label" for="gridCheck">
-        Check me out
-      </label>
-    </div>
-  </div>
-  <div class="col-12">
-    <button type="submit" class="btn btn-primary">Enviar</button>
-  </div>
-</form>
+<?php include_once "views/ctt_home.php"?>
 
 
 </div>
