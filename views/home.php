@@ -10,7 +10,8 @@
   $img_files[0] = $img."logo.png";
   $img_files[1] = $img."foto_luciano.jpg";
   $img_files[2] = $img."foto_renan.jpg";
-  $img_files[3] = $img."foto_thiago.jpg";
+  $img_files[3] = $img."foto_thiago.jpeg";
+  $img_files[4] = $img."missao_visao_valores.png";
   ?>
 <head>
 <title>TRL Sites - Bem-vindo!</title>
@@ -80,6 +81,9 @@
   <div class="row">
     <div class="col-6"> <h4 class="titulos">Missão, Visão e Valores</h4><hr class="linha_txt">
     <p class="textos"><?=$txt_missao_visao_valores?></p>
+    </div>
+    <div class="col-6">
+    <img src="<?=$img_files[4]?>">
     </div>
   </div>
 </div>
