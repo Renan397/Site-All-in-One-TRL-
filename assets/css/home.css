@@ -25,20 +25,12 @@ body {
     text-align: center;
     font-weight: bold;
 }
-#servicos {
-    margin-left: 15%;
-}
-#slides_servicos {
-    margin-left: 5%;
-}
 #fig_slides {
-    border: inset 3px #0069b3; 
-    border-radius: 2%;
+    border: inset 3px #0069b3;
 }
 .imgs_slides {
-    border-radius: 1%;
-    width: 500px;
-    height: 420px;
+    width: 800px;
+    height: 450px;
 }
 #txt_entrada {
     text-align: center;

@@ -1558,7 +1558,7 @@ $(function() {
     $('#slides_servicos figure').cycle({
         fx: 'cover',
 			speed: 1000,
-			timeout: 5000,
+			timeout: 11000,
 			next: '#prox',
 			prev: '#ant',
 			pager: '#pager'

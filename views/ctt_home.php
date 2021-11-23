@@ -1,13 +1,17 @@
 <form class="row g-3">
   <div class="col-md-6">
-    <label for="inputEmail4" class="form-label">Nome</label>
-    <input type="email" class="form-control" id="inputEmail4">
+    <label class="form-label">Nome</label>
+    <input type="text" class="form-control">
   </div>
   <div class="col-md-6">
-    <label for="inputPassword4" class="form-label">Email</label>
-    <input type="password" class="form-control" id="inputPassword4">
+    <label class="form-label">Email</label>
+    <input type="email" class="form-control">
+  </div><br><br>
+  <div class="col-md-6">
+    <label class="form-label">Mensagem</label>
+    <textarea type="text" class="form-control"></textarea>
   </div>
   <div class="col-12">
-    <button type="submit" class="btn btn-primary">Enviar</button>
+  <br><center><button type="submit" class="btn btn-primary">Enviar</button></center><br><br>
   </div>
 </form>

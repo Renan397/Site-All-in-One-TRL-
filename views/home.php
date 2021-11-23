@@ -35,23 +35,24 @@
 <br><br><h3 class="titulo_entrada">Bem-Vindo!</h3><br>
 <p class="textos" id="txt_entrada"><?=$txt_entrada?></p><br>
 
+
 <div class="container" id="servicos">
   <div class="row">
     <div class="col-8"><h4 class="titulos">Serviços</h4><hr class="linha_txt">
     <p class="textos"><?=$txt_servicos?></p>
   </div>
   </div>
-</div>
+  <div class="row">
   <div id="slides_servicos">
       <figure id="fig_slides">
-        <img src="<?=$img_files[4]?>" style="width: 800px;
-      height: 450px;" class="imgs_slides">
-        <img src="<?=$img_files[5]?>" style="width: 800px;
-      height: 450px;" class="imgs_slides">
-        <img src="<?=$img_files[6]?>" style="width: 800px;
-      height: 450px;" class="imgs_slides">
+        <img src="<?=$img_files[4]?>" class="imgs_slides">
+        <img src="<?=$img_files[5]?>" class="imgs_slides">
+        <img src="<?=$img_files[6]?>" class="imgs_slides">
         </figure>
-  </div><br>
+  </div>
+  </div>
+</div><br>
+  
 
 <div class="container">
   <div class="row">
@@ -61,7 +62,7 @@
     <br><br><br><img id="img_logo" src="<?=$img_files[0]?>" width = "300px"; height = "250px";>
     </div>
   </div>
-</div>
+</div><br>
 
 
 <div class="container" id="equipe">
