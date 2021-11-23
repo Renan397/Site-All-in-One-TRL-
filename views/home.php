@@ -28,8 +28,25 @@
 <div id="conteudo">
 
 <div id="conteudo1">
+<br><br><h3 class="titulo_entrada">Bem-Vindo!</h3><br>
+<p class="textos" id="txt_entrada"><?=$txt_entrada?></p><br>
 
-<br><br><h3 class="titulo_entrada">Bem-Vindo!</h3><br><br>
+<div class="container" id="servicos">
+  <div class="row">
+    <div class="col-8"><h4 class="titulos">Serviços</h4><hr class="linha_txt">
+    <p class="textos"><?=$txt_servicos?></p></div>
+    <div class="col-4"><br>
+    <div class="col-6" id="slides_servicos">
+    <figure>
+       <img src="<?=$img_files[1]?>" class="imgs_slides">
+       <img src="<?=$img_files[2]?>" class="imgs_slides">
+       <img src="<?=$img_files[3]?>" class="imgs_slides">
+      </figure>
+    </div> 
+  </div>
+  </div>
+</div><br>
+
 <div class="container">
   <div class="row">
     <div class="col-8"><h4 class="titulos">TRL Sites</h4><hr class="linha_txt">
@@ -59,17 +76,16 @@
   </div><br>
 </div>
 
-<div class="container" id="mvv_oferta">
+<div class="container" id="mvv">
   <div class="row">
     <div class="col-6"> <h4 class="titulos">Missão, Visão e Valores</h4><hr class="linha_txt">
     <p class="textos"><?=$txt_missao_visao_valores?></p>
     </div>
-    <div class="col-6">Serviços da empresa</div>
   </div>
 </div>
 
 <br><h4 class="titulos">Contato</h4><hr class="linha_txt">
-<p class="textos">Se interessou pelos nossos serviços? Preencha o formulário abaixo com suas informações e entraremos em contato!</p>
+<p class="textos" id="txt_contato"><?=$txt_contato?></p>
 <form class="row g-3">
   <div class="col-md-6">
     <label for="inputEmail4" class="form-label">Email</label>

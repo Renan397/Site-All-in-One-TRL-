@@ -25,6 +25,17 @@ body {
     text-align: center;
     font-weight: bold;
 }
+.imgs_slides {
+    width: 400px;
+    height: 300px;
+    border-radius: 5%;
+}
+#txt_entrada {
+    text-align: center;
+}
+#txt_contato {
+    text-align: center;
+}
 .titulos {
     text-align: center;
 }
