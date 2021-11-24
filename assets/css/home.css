@@ -69,6 +69,18 @@ body {
     transition: 0.5s;
 }
 #back-to-top:hover {
-    transform: scale(1.1);
+    transition: 0.5s;
     cursor: pointer;
+}
+.form-control {
+    border: #5c5c5c solid 1px;
+}
+#bttn_enviar {
+    padding: 10px;
+    background-color: #0068b3c9;
+    transition: 0.5s;
+}
+#bttn_enviar:hover {
+    background-color: #0069b3;
+    transition: 0.5s;
 }

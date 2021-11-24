@@ -105,7 +105,7 @@
 </div>
 </div>
 
-<img id="back-to-top" style="width: 60px; height: 60px;" src="<?=$img_files[8]?>">
+<img id="back-to-top" alt="Voltar ao topo" style="width: 60px; height: 60px;" src="<?=$img_files[8]?>">
 <script>
   var btn = document.querySelector("#back-to-top");
   btn.addEventListener("click", function() {
