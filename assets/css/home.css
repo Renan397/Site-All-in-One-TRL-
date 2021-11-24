@@ -62,5 +62,13 @@ body {
     width: 180px; 
     height: 180px;
 }
-
-
+#back-to-top {
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    transition: 0.5s;
+}
+#back-to-top:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}

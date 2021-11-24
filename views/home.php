@@ -15,6 +15,7 @@
   $img_files[5] = $img."pacote_medi.png";
   $img_files[6] = $img."pacote_max.png";
   $img_files[7] = $img."missao_visao_valores.png";
+  $img_files[8] = $img."bttn_voltar_topo.png";
   ?>
 <head>
 <title>TRL Sites - Bem-vindo!</title>
@@ -104,7 +105,13 @@
 </div>
 </div>
 
-
+<img id="back-to-top" style="width: 60px; height: 60px;" src="<?=$img_files[8]?>">
+<script>
+  var btn = document.querySelector("#back-to-top");
+  btn.addEventListener("click", function() {
+  window.scrollTo(0, 0);
+});
+</script>
 </body>
 <footer>
 </footer>

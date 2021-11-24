@@ -1563,4 +1563,4 @@ $(function() {
 			prev: '#ant',
 			pager: '#pager'
     });
-})
+});
