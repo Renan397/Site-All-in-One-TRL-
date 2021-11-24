@@ -82,6 +82,5 @@ body {
 }
 #bttn_enviar:hover {
     background-color: #0069b3;
-    border: 1px solid #5c5c5c;
-    transform: scale(1.1);
+    border: 1px solid #b3b2b2af;
 }
