@@ -69,7 +69,7 @@ body {
     transition: 0.5s;
 }
 #back-to-top:hover {
-    transition: 0.5s;
+    transform: scale(1.1);
     cursor: pointer;
 }
 .form-control {
@@ -82,5 +82,6 @@ body {
 }
 #bttn_enviar:hover {
     background-color: #0069b3;
-    transition: 0.5s;
+    border: 1px solid #5c5c5c;
+    transform: scale(1.1);
 }
