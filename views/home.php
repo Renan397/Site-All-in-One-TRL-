@@ -43,8 +43,11 @@
     <p class="textos"><?=$txt_servicos?></p>
   </div>
   </div>
+</div>
+
+<div class="container" id="carrossel_servicos">
   <div class="row">
-  <div class="col-6">
+  <div class="col-6" style="left: 50%;">
   <div id="slides_servicos">
       <figure id="fig_slides">
         <img src="<?=$img_files[4]?>" class="imgs_slides">
@@ -54,7 +57,8 @@
   </div>
   </div>
   </div>
-</div><br>
+</div>
+<br>
   
 
 <div class="container">
