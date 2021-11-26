@@ -1,11 +1,11 @@
 <form class="row g-3" id="form_ctt">
   <div class="col-md-6">
     <label class="form-label">Nome:</label>
-    <input type="text" placeholder="Digite aqui o seu nome.." id="campo_nome" onfocus="clicou_campo_nome()" onblur="nao_clicou_campo_nome()" class="form-control"><br>
+    <input type="text" required = "required" placeholder="Digite aqui o seu nome.." id="campo_nome" onfocus="clicou_campo_nome()" onblur="nao_clicou_campo_nome()" class="form-control"><br>
     <label class="form-label">Email:</label>
-    <input type="email" placeholder="Digite aqui o seu email..." id="campo_email" onfocus="clicou_campo_email()" onblur="nao_clicou_campo_email()" class="form-control"><br>
+    <input type="email" required = "required" placeholder="Digite aqui o seu email..." id="campo_email" onfocus="clicou_campo_email()" onblur="nao_clicou_campo_email()" class="form-control"><br>
     <label class="form-label">Mensagem:</label>
-    <textarea type="text" style="height: 150px;" placeholder="Digite aqui sua mensagem..." id="campo_msg" onfocus="clicou_campo_msg()" onblur="nao_clicou_campo_msg()" class="form-control"></textarea>
+    <textarea type="text" required = "required" style="height: 150px;" placeholder="Digite aqui sua mensagem..." id="campo_msg" onfocus="clicou_campo_msg()" onblur="nao_clicou_campo_msg()" class="form-control"></textarea>
   </div>
   <div class="col-12">
   <br><center><button type="submit" id="bttn_enviar" class="btn btn-primary">Enviar</button></center><br><br>
