@@ -92,6 +92,13 @@ body {
     cursor: pointer;
 }
 
+#form_ctt {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
 .form-control {
     border: #5c5c5c solid 1px;
 }
