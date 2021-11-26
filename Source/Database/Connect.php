@@ -33,7 +33,8 @@ class Connect
                     self::OPTIONS
                 );
             } catch (PDOException $exception) {
-                die("<h1>Erro ao conectar</h1>");
+                die("<h1 style='padding: 25px; border: 1px solid gray; border-radius: 3px; margin: 10px;
+                font-size: 25px; border-color: #e8273b; color: #fff; background-color: #ed5565;'>Erro ao conectar!</h1>");
             }
         }
 
