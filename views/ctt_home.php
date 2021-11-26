@@ -1,7 +1,7 @@
 <form class="row g-3" id="form_ctt">
   <div class="col-md-6">
     <label class="form-label">Nome:</label>
-    <input type="text" required = "required" placeholder="Digite aqui o seu nome.." id="campo_nome" onfocus="clicou_campo_nome()" onblur="nao_clicou_campo_nome()" class="form-control"><br>
+    <input type="text" required = "required" placeholder="Digite aqui o seu nome..." id="campo_nome" onfocus="clicou_campo_nome()" onblur="nao_clicou_campo_nome()" class="form-control"><br>
     <label class="form-label">Email:</label>
     <input type="email" required = "required" placeholder="Digite aqui o seu email..." id="campo_email" onfocus="clicou_campo_email()" onblur="nao_clicou_campo_email()" class="form-control"><br>
     <label class="form-label">Mensagem:</label>
