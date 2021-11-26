@@ -78,15 +78,15 @@
 <h4 class="titulos">Sobre nós</h4><hr class="linha_txt"><br>
   <div class="row">
     <div class="col">
-    <img id="foto_luciano" style="border-radius: 50%;" src="<?=$img_files[1]?>"><br><br>
+    <img class="imgs_sobre" style="border-radius: 50%;" src="<?=$img_files[1]?>"><br><br>
     <p class="textos"><?=$desc_func[0]?></p>
     </div>
     <div class="col">
-    <img id="foto_renan" style="border-radius: 50%;" src="<?=$img_files[2]?>"><br><br>
+    <img class="imgs_sobre" style="border-radius: 50%;" src="<?=$img_files[2]?>"><br><br>
     <p class="textos"><?=$desc_func[1]?></p>
     </div>
     <div class="col">
-    <img id="foto_thiago" style="border-radius: 50%;" src="<?=$img_files[3]?>"><br><br>
+    <img class="imgs_sobre" style="border-radius: 50%;" src="<?=$img_files[3]?>"><br><br>
     <p class="textos"><?=$desc_func[2]?></p>
     </div>
   </div>
