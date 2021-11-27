@@ -39,7 +39,7 @@ body {
     display: none;
 }
 
-.botoes_carrossel_botao {
+#botoes_carrossel_botao {
     background-color: #595959;
 }
 
