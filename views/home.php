@@ -46,21 +46,41 @@
   </div>
 </div>
 
-<center>
-<div class="container" id="carrossel_servicos">
-  <div class="row">
-  <div class="col-6">
-  <div id="slides_servicos">
-      <figure id="fig_slides">
-        <img src="<?=$img_files[4]?>" class="imgs_slides">
-        <img src="<?=$img_files[5]?>" class="imgs_slides">
-        <img src="<?=$img_files[6]?>" class="imgs_slides">
-        </figure>
+<div onmouseover="entrou_carrossel()" onmouseout="saiu_carrossel()" id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block w-100" src="<?=$img_files[4]?>" alt="Primeiro Slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="<?=$img_files[5]?>" alt="Segundo Slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="<?=$img_files[6]?>" alt="Terceiro Slide">
+    </div>
   </div>
-  </div>
-  </div>
+  <div class="botoes_carrossel_div" id="botao_anterior">
+    <a id="botoes_carrossel_botao" class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Anterior</span>
+    </a>
+    </div>
+    <div class="botoes_carrossel_div" id="botao_proxima">
+      <a id="botoes_carrossel_botao" class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Próximo</span>
+      </a>
+    </div>
 </div>
-</center>
+<script>
+  function entrou_carrossel() {
+    document.getElementById("botao_anterior").style.display = "block";
+    document.getElementById("botao_proxima").style.display = "block";
+  }
+  function saiu_carrossel() {
+    document.getElementById("botao_anterior").style.display = "none";
+    document.getElementById("botao_proxima").style.display = "none";
+  }
+</script>
 <br>
   
 

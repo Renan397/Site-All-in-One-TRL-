@@ -31,22 +31,16 @@ body {
     font-weight: bold;
 }
 
-#fig_slides {
+#carouselExampleControls {
     border: inset 3px #0069b3;
 }
 
-#carrossel_servicos {
-    width: 800px;
-    height: 450px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+.botoes_carrossel_div {
+    display: none;
 }
 
-.imgs_slides {
-    width: 800px;
-    height: 450px;
+.botoes_carrossel_botao {
+    background-color: #595959;
 }
 
 #txt_entrada {
