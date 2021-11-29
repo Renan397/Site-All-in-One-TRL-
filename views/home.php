@@ -127,11 +127,11 @@
 <br><h4 class="titulos">Contato</h4><hr class="linha_txt">
 <p class="textos" id="txt_contato"><?=$txt_contato?></p>
 <?php 
+include_once "views/ctt_home.php";
 if(isset($_SESSION['msg'])){
   echo $_SESSION['msg'];
   unset ($_SESSION['msg']);
 }
-include_once "views/ctt_home.php";
 ?>
 
 
