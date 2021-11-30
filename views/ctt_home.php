@@ -16,8 +16,6 @@
   </div>
 </form>
 
-
-
 <script>
   function clicou_campo_nome() {
     document.getElementById("campo_nome").style.border = "#0069b3 solid 2px";

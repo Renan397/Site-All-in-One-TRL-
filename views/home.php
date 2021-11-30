@@ -31,6 +31,12 @@
 </head>
 <body>
 
+<header>
+  <?php
+  include_once "views/menu_home.php";
+  ?>
+</header>
+
 <div id="conteudo">
 
 <div id="conteudo1">
@@ -84,7 +90,7 @@
 <br>
   
 
-<div class="container">
+<div class="container" id="historia">
   <div class="row">
     <div class="col-8"><h4 class="titulos">TRL Sites</h4><hr class="linha_txt">
     <p class="textos"><?=$txt_historia?></p></div>
@@ -124,7 +130,7 @@
   </div>
 </div>
 
-<br><h4 class="titulos">Contato</h4><hr class="linha_txt">
+<br><h4 class="titulos" id="contato">Contato</h4><hr class="linha_txt">
 <p class="textos" id="txt_contato"><?=$txt_contato?></p>
 <?php 
 include_once "views/ctt_home.php";
