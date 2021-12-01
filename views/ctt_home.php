@@ -1,3 +1,4 @@
+<div class="container">
 <form method="POST" action="./Source/Database/query.php" class="row g-3">
   <div class="col-md-6">
     <label class="form-label">Nome:</label>
@@ -15,6 +16,7 @@
   <br><center><button type="submit" id="bttn_enviar" class="btn btn-primary">Enviar</button></center><br><br>
   </div>
 </form>
+</div>
 
 <script>
   function clicou_campo_nome() {

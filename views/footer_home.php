@@ -8,7 +8,30 @@
  $img_files[12] = $img."logo_gmail1.png";
 ?>
 <html>
-<link rel="stylesheet" href="<?=$css_file?>">
+<style>
+    #footer_home {
+    position: absolute;
+    width: 100%;
+    height: 250px;
+    border-radius: 3px;
+    background-color: #5c5c5c;
+}
+#imgs_footer {
+    list-style: none;
+    margin-left: 40%;
+}
+.img_footer {
+    width: 50px;
+    height: 80px;
+    float: left;
+    padding-left: 7px;
+    padding-top: 5%;
+    transition: 0.5s;
+}
+.img_footer:hover {
+    transform: scale(1.1);
+}
+</style>
 </html>
 
 <?php
