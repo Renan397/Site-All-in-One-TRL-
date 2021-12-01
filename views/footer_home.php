@@ -133,7 +133,7 @@ transform: scale(1.1);
                 </div>
                 <div class="col-sm-6"><br><br>
                     <ul>
-                        <li><p><b>Telefone:</b> <br>(11) 96035-1235<br> (11) 94272-1549<br> (11) 94272-1549</p></li><br>
+                        <li><p><b>Telefone:</b> <br>(11) 96035-1235<br> (11) 96726-3940<br> (11) 94272-1549</p></li><br>
                         <li><p><b>Endereço:</b> Av. Salgado Filho, 3501 - Centro, Guarulhos - SP</p></li>
                     </ul>
                 </div>
