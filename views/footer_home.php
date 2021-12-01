@@ -14,7 +14,7 @@
     width: 100%;
     height: 250px;
     border-radius: 3px;
-    background-color: #5c5c5c;
+    background-color: #01477a;
 }
 #imgs_footer {
     list-style: none;
