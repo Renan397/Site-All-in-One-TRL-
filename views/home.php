@@ -143,7 +143,6 @@ if(isset($_SESSION['msg'])){
 
 <?php
 include_once "views/footer_home.php";
-footer_home($img_files);
 ?>
 </div>
 </div>
