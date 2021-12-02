@@ -1,6 +1,5 @@
 <?php
  include_once "config/config.php";
- $css_file = $css."footer.css";
  $img_files = array();
  $img_files[9] = $img."logo_whatsapp.png";
  $img_files[10] = $img."logo_facebook.png";
