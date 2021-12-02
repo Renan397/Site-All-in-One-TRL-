@@ -130,11 +130,6 @@
 <footer id="myFooter">
     <div class="container">
         <div class="row">
-            <div class="col-sm-2">
-                <div id="imgLogoFooter">
-                    <img class='img_LogoFooter' src='<?= $img_files[12] ?>'>
-                </div>
-            </div>
             <div class="col-sm-1">
                 <h5>Início</h5>
                 <ul>
@@ -151,7 +146,7 @@
                     </li>
                 </ul>
             </div>
-            <div class="col-sm-2">
+            <div class="col-sm-3">
                 <div class="social-networks">
                     <a href="https://api.whatsapp.com/send?phone=551196035-1235&text=sua%20mensagem" class="whatsapp" target="_blank"><img class='img_footer' src='<?= $img_files[9] ?>'></i></a>
                     <a href="#" class="facebook"><img class='img_footer' src='<?= $img_files[10] ?>'></i></a>
