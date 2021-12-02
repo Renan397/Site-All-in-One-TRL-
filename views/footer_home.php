@@ -2,10 +2,9 @@
  include_once "config/config.php";
  $css_file = $css."footer.css";
  $img_files = array();
- $img_files[9] = $img."logo_whatsapp1.png";
- $img_files[10] = $img."logo_facebook1.png";
- $img_files[11] = $img."logo_instagram1.png";
- $img_files[12] = $img."logo_gmail1.png";
+ $img_files[9] = $img."logo_whatsapp.png";
+ $img_files[10] = $img."logo_facebook.png";
+ $img_files[11] = $img."logo_instagram.png";
 ?>
 <html>
 <style>
