@@ -1,11 +1,9 @@
 <?php
-include_once "config/config.php";
-$css_file = $css . "footer.css";
-$img_files = array();
-$img_files[9]  = $img . "logo_whatsapp.png";
-$img_files[10] = $img . "logo_facebook.png";
-$img_files[11] = $img . "logo_instagram.png";
-$img_files[12] = $img . "logo.png";
+ include_once "config/config.php";
+ $img_files = array();
+ $img_files[9] = $img."logo_whatsapp.png";
+ $img_files[10] = $img."logo_facebook.png";
+ $img_files[11] = $img."logo_instagram.png";
 ?>
 <html>
 <style>
@@ -132,11 +130,6 @@ $img_files[12] = $img . "logo.png";
 <footer id="myFooter">
     <div class="container">
         <div class="row">
-            <div class="col-sm-2">
-                <div id="imgLogoFooter">
-                    <img class='img_LogoFooter' src='<?= $img_files[12] ?>'>
-                </div>
-            </div>
             <div class="col-sm-1">
                 <h5>Início</h5>
                 <ul>
@@ -153,7 +146,7 @@ $img_files[12] = $img . "logo.png";
                     </li>
                 </ul>
             </div>
-            <div class="col-sm-2">
+            <div class="col-sm-3">
                 <div class="social-networks">
                     <a href="https://api.whatsapp.com/send?phone=551196035-1235&text=sua%20mensagem" class="whatsapp" target="_blank"><img class='img_footer' src='<?= $img_files[9] ?>'></i></a>
                     <a href="#" class="facebook"><img class='img_footer' src='<?= $img_files[10] ?>'></i></a>
