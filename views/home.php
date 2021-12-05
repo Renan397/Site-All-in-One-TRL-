@@ -41,7 +41,7 @@
 
 <div id="conteudo1">
 
-<br><br><h3 class="titulo_entrada">Bem-Vindo!</h3><br>
+<br><br><h3 class="titulo_entrada" id="titulo_entrada">Bem-Vindo!</h3><br>
 <p class="textos" id="txt_entrada"><?=$txt_entrada?></p><br>
 
 
