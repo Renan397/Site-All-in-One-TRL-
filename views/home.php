@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html id="html" lang="pt-br">
   <?php
   session_start();
   include_once "config/config.php";
@@ -40,7 +40,8 @@
 <div id="conteudo">
 
 <div id="conteudo1">
-<br><br><h3 class="titulo_entrada">Bem-Vindo!</h3><br>
+
+<br><br><h3 class="titulo_entrada" id="titulo_entrada">Bem-Vindo!</h3><br>
 <p class="textos" id="txt_entrada"><?=$txt_entrada?></p><br>
 
 
@@ -92,10 +93,10 @@
 
 <div class="container" id="historia">
   <div class="row">
-    <div class="col-8"><h4 class="titulos">TRL Sites</h4><hr class="linha_txt">
+    <div class="col" id="txt_historia_div"><h4 class="titulos">TRL Sites</h4><hr class="linha_txt">
     <p class="textos"><?=$txt_historia?></p></div>
-    <div class="col-4">
-    <br><br><br><img id="img_logo" src="<?=$img_files[0]?>" width = "300px"; height = "250px";>
+    <div class="col-4" id="img_logo_div">
+    <br><br><img id="img_logo" src="<?=$img_files[0]?>" style="width: 300px; height: 250px;">
     </div>
   </div>
 </div><br>
@@ -121,11 +122,11 @@
 
 <div class="container" id="mvv">
   <div class="row">
-    <div class="col-6"> <h4 class="titulos">Missão, Visão e Valores</h4><hr class="linha_txt">
+    <div class="col-6" id="txt_mvv_div"> <h4 class="titulos">Missão, Visão e Valores</h4><hr class="linha_txt">
     <p class="textos"><?=$txt_missao_visao_valores?></p>
     </div>
-    <div class="col-6">
-    <img src="<?=$img_files[7]?>">
+    <div class="col-6" id="img_mvv_div">
+    <img id="img_logo" src="<?=$img_files[7]?>">
     </div>
   </div>
 </div>
@@ -147,12 +148,34 @@ include_once "views/footer_home.php";
 </div>
 </div>
 
+
 <img id="back-to-top" alt="Voltar ao topo" style="width: 60px; height: 60px;" src="assets/img/bttn_voltar_topo.png">
 <script>
+  //Botão de voltar ao topo
   var btn = document.querySelector("#back-to-top");
   btn.addEventListener("click", function() {
   window.scrollTo(0, 0);
 });
+</script>
+
+<script>
+//Site rodando no celular
+  function isMobile() {
+    var userAgent = navigator.userAgent.toLowerCase();
+    return (userAgent.search(/(android|avantgo|blackberry|bolt|boost|cricket|docomo|fone|hiptop|mini|mobi|palm|phone|pie|tablet|up\.browser|up\.link|webos|wos)/i) != -1);
+}
+
+if (isMobile()) {
+   document.getElementById("html").style.zoom = "150%";
+   document.getElementById("txt_historia_div").classList.remove("col");
+   document.getElementById("txt_historia_div").classList.add("col-10");
+   document.getElementById("img_logo_div").classList.remove("col-4");
+   document.getElementById("img_logo_div").classList.add("col-10");
+   document.getElementById("txt_mvv_div").classList.remove("col-6");
+   document.getElementById("txt_mvv_div").classList.add("col-10");
+   document.getElementById("img_mvv_div").classList.remove("col-6");
+   document.getElementById("img_mvv_div").classList.add("col-10");
+}
 </script>
 
 </body>
