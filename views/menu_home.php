@@ -7,7 +7,7 @@
                 </a>
             </li>
 
-            <li><a class="divs_redirect" href="#conteudo1">Início</a></li>
+            <li><a class="divs_redirect" href="#titulo_entrada">Início</a></li>
             
             <li><a class="divs_redirect" href="#servicos">Serviços</a></li>
             
