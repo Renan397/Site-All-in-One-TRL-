@@ -5,7 +5,7 @@ $txt_servicos = "Primeiramente, você está totalmente satisfeito com o rendimen
 
 $txt_historia = "Nossa organização nasceu a partir do trabalho de conclusão de uma
 matéria no curso de informática para Internet, no qual foi necessário o
-desenvolvimento de um site. Por isso, Luciano Júnior, Thiago Martins e Renan
+desenvolvimento de um site. Por isso, Luciano Júnior, Thiago Martins e Renan dos
 Santos decidiram montar uma empresa para padronizar e profissionalizar o site
 a ser desenvolvido. Depois de muitas reuniões, decidiram em conjunto o nome
 da empresa como TRL Sites, porque tem as iniciais dos seus fundadores, estas
