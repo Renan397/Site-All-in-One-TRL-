@@ -9,7 +9,7 @@
 
             <li><a class="divs_redirect" href="#titulo_entrada">Início</a></li>
             
-            <li><a class="divs_redirect" href="#servicos">Serviços</a></li>
+            <li><a class="divs_redirect" href="#carouselExampleControls">Serviços</a></li>
             
             <li><a class="divs_redirect" href="#historia">História</a></li>
 
