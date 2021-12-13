@@ -112,17 +112,17 @@
   <div class="row">
     <div class="col">
     <img class="imgs_sobre" style="border-radius: 50%;" src="<?=$img_files[1]?>"><br><br>
-    <center><button onclick="abrir_desc1()" style="background-color: #035794;" id="bttn_abrir_desc1" class="btn btn-primary">Ver mais</button></center>
+    <center><button onclick="abrir_desc1()" style="background-color: #035794;" id="bttn_abrir_desc1" class="btn btn-primary">Ver mais... 🡳</button></center>
     <p style="display:none" id="text_desc1" class="textos"><?=$desc_func[0]?></p>
     </div>
     <div class="col">
     <img class="imgs_sobre" style="border-radius: 50%;" src="<?=$img_files[2]?>"><br><br>
-    <center><button onclick="abrir_desc2()" style="background-color: #035794;" id="bttn_abrir_desc2" class="btn btn-primary">Ver mais</button></center>
+    <center><button onclick="abrir_desc2()" style="background-color: #035794;" id="bttn_abrir_desc2" class="btn btn-primary">Ver mais... 🡳</button></center>
     <p style="display:none" id="text_desc2" class="textos"><?=$desc_func[1]?></p>
     </div>
     <div class="col">
     <img class="imgs_sobre" style="border-radius: 50%;" src="<?=$img_files[3]?>"><br><br>
-    <center><button onclick="abrir_desc3()" style="background-color: #035794;" id="bttn_abrir_desc3" class="btn btn-primary">Ver mais</button></center>
+    <center><button onclick="abrir_desc3()" style="background-color: #035794;" id="bttn_abrir_desc3" class="btn btn-primary">Ver mais... 🡳</button></center>
     <p style="display:none" id="text_desc3" class="textos"><?=$desc_func[2]?></p>
     </div>
   </div>
