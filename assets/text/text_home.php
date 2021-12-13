@@ -1,14 +1,14 @@
 <?php
 $txt_entrada = "Você está na página oficial da TRL Sites! Conheça mais sobre nossa empresa e os serviços que disponibilizamos para você!";
 
-$txt_servicos = "Primeiramente, você está totalmente satisfeito com o rendimento do seu negócio? Bem, se a resposta for sim, você está no lugar certo, já se a resposta for não, você também está no lugar certo. Por que? A TRL pode te oferecer um site, totalmente moderno, com estilização e banco de dados integrados, e esse site vai te ajudar a alavancar suas vendas, visto que muitas pessoas poderiam ver as ofertas da suas empresa ou entrar em contato com a mesma, apenas com um toque na tela do celular ou um clique na tela do computador.<br><br>E a consultoria? <b>Totalmente gratuita!</b> Disponilizamos esse serviço para que você tenha a garantia de que vai ter um bom produto, e sem gastos iniciais. Já imaginou suas vendas subindo a cada clique de um novo cliente? Pois então veja abaixo nossas ofertas, caso surja o interesse, preencha o formulário no fim da página, será um prazer ajudá-lo!<br><br>";
+$txt_servicos = "Primeiramente, você está totalmente satisfeito com o rendimento do seu negócio? Bem, se a resposta for sim, você está no lugar certo, já se a resposta for não, você também está no lugar certo. Por que? A TRL pode te oferecer um site, totalmente moderno, com estilização e banco de dados integrados, esse site vai te ajudar a alavancar suas vendas, visto que muitas pessoas poderiam ver as ofertas da suas empresa ou entrar em contato com a mesma, apenas com um toque na tela do celular ou um clique na tela do computador.<br><br>E a consultoria? <b>Totalmente gratuita!</b> Disponilizamos esse serviço para que você tenha a garantia de que vai ter um bom produto, e sem gastos iniciais. Já imaginou suas vendas subindo a cada clique de um novo cliente? Pois então veja abaixo nossas ofertas, caso surja o interesse, preencha o formulário no fim da página, será um prazer ajudá-lo!<br><br>";
 
 $txt_historia = "Nossa organização nasceu a partir do trabalho de conclusão de uma
 matéria no curso de informática para Internet, no qual foi necessário o
 desenvolvimento de um site. Por isso, Luciano Júnior, Thiago Martins e Renan dos
-Santos decidiram montar uma empresa para padronizar e profissionalizar o site
-a ser desenvolvido. Depois de muitas reuniões, decidiram em conjunto o nome
-da empresa como TRL Sites, porque tem as iniciais dos seus fundadores, estas
+Santos decidiram montar uma empresa para padronizar e profissionalizar os sites
+a serem desenvolvidos. Depois de muitas reuniões, decidiram em conjunto o nome
+da empresa como TRL Sites, por conter as iniciais dos seus fundadores, estas
 são as três forças da empresa, comprovando o conjunto de ideias que
 apresentam.<br><br> 
 Por outro lado, nossa logomarca enfatiza a importância do uso da
@@ -37,8 +37,8 @@ coisas, a grande maioria voltada para a desenvolvimento de sistemas
 para internet. Com meus conhecimentos, desejo auxiliar a empresa a
 construir o melhor sistema para cada cliente.";
 $desc_func[2] = "Eu sou o <b><span style='color: #01477a;'>Thiago</b></span>, cofundador e desenvolvedor
-back-end da TRL. Tenho 18 anos, natural de Guarulhos-SP,
-cursando informática para internet, pelo Instituto Federal de Tecnologia
+back-end da TRL. Tenho 18 anos, sou natural de Guarulhos-SP, e estou
+cursando Informática para internet, pelo Instituto Federal de Tecnologia
 e Ciências – Campus Guarulhos. Tenho prazer em desenvolver
 sistemas e realizar os sonhos dos nossos clientes com um back-end
 funcional e seguro, utilizando as boas práticas que tenho em minha
@@ -55,7 +55,7 @@ de ideias</b></span>, sempre ouvindo todos os integrantes e discutindo o que pod
 melhorado nos projetos.<br><br>
 No futuro, pretendemos nos tornar uma empresa renomada, possibilitando cada vez
 mais a prestação de serviços de qualidade aos nossos clientes, e nos tornando
-uma referência nacional e internacional, na área de tecnologia da informação.";
+uma referência nacional e internacional na área de tecnologia da informação.";
 
 $txt_contato = "Caso tenha interesse em nossos serviços, preencha o formulário abaixo com suas informações e entraremos em contato.";
 ?>
