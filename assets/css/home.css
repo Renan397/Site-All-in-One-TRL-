@@ -35,9 +35,10 @@ body {
 }
 
 #carouselExampleControls {
-    border: inset 3px #0069b3;
-    width: 85%;
-    height: 85%;
+    border: double 5px #0069b3;
+    border-radius: 5px;
+    width: 83%;
+    height: 83%;
 }
 
 .botoes_carrossel_div {
