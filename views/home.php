@@ -1,10 +1,5 @@
 <!DOCTYPE html>
 <html id="html" lang="pt-br">
-  <style>
-    html {
-      scroll-behavior: smooth;
-    }
-  </style>
   <?php
   session_start();
   include_once "config/config.php";
