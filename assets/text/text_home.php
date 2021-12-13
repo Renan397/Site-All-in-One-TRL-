@@ -10,7 +10,8 @@ Santos decidiram montar uma empresa para padronizar e profissionalizar o site
 a ser desenvolvido. Depois de muitas reuniões, decidiram em conjunto o nome
 da empresa como TRL Sites, porque tem as iniciais dos seus fundadores, estas
 são as três forças da empresa, comprovando o conjunto de ideias que
-apresentam.<br> Por outro lado, nossa logomarca enfatiza a importância do uso da
+apresentam.<br><br> 
+Por outro lado, nossa logomarca enfatiza a importância do uso da
 Internet, pois com ela é possível estabelecer conexões com todos os lugares
 do planeta, formando assim uma conexão extraordinária que pode mudar
 completamente a sociedade. Como ideia principal, que é buscar o
@@ -18,7 +19,7 @@ desenvolvimento profissional de nossos clientes, a <b><span style='color: #01477
 seu site e a sua evolução!</span></b>";
 
 $desc_func = array();
-$desc_func[0] = "Olá, sou o Luciano, gerente, cofundador e
+$desc_func[0] = "Olá, sou o <b><span style='color: #01477a;'>Luciano</span></b>, gerente, cofundador e
 desenvolvedor front-end da TRL. Tenho 18 anos, sou natural de
 Fortaleza-CE. Atualmente, estou cursando informática para Internet,
 pelo Instituto Federal de Educação, Ciência e Tecnologia - Campus
@@ -26,7 +27,7 @@ Guarulhos, na modalidade ensino médio técnico. Gosto muito de
 desenvolver sistemas, sempre fui apaixonado por tecnologia, amo a
 natureza, sou apaixonado por música e adoro estar conectado com
 meus amigos e familiares.";
-$desc_func[1] = "Eu sou o Renan, cofundador e
+$desc_func[1] = "Eu sou o <b><span style='color: #01477a;'>Renan</b></span>, cofundador e
 desenvolvedor front-end da TRL. Tenho 18 anos, sou natural de
 Guarulhos-SP, onde estou me formando em Informática para Internet,
 na modalidade ensino médio técnico, pelo IFSP (Instituto Federal de
@@ -35,7 +36,7 @@ interessado na área da tecnologia, durante o curso aprendi diversas
 coisas, a grande maioria voltada para a desenvolvimento de sistemas
 para internet. Com meus conhecimentos, desejo auxiliar a empresa a
 construir o melhor sistema para cada cliente.";
-$desc_func[2] = "Eu sou o Thiago, cofundador e desenvolvedor
+$desc_func[2] = "Eu sou o <b><span style='color: #01477a;'>Thiago</b></span>, cofundador e desenvolvedor
 back-end da TRL. Tenho 18 anos, natural de Guarulhos-SP,
 cursando informática para internet, pelo Instituto Federal de Tecnologia
 e Ciências – Campus Guarulhos. Tenho prazer em desenvolver
@@ -48,9 +49,9 @@ reais, com o auxílio da tecnologia. Além disso, vemos como missão do grupo
 TRL oferecer aos seus clientes novas formas de expandir seu negócio, de uma
 forma mais acessível, garantindo a segurança de poder investir em algo que
 vai trazer bons retornos para seus empreendimentos.<br><br>
-Prezamos muito pela ética, pontualidade com as entregas,
-profissionalismo, dedicação, e o trabalho sempre feito com base na pluralidade
-de ideias, sempre ouvindo todos os integrantes e discutindo o que pode ser
+Prezamos muito pela <b><span style='color: #01477a;'>ética</b></span>, <b><span style='color: #01477a;'>pontualidade com as entregas</b></span>,
+<b><span style='color: #01477a;'>profissionalismo</b></span>, <b><span style='color: #01477a;'>dedicação</b></span>, e o trabalho sempre feito com base na <b><span style='color: #01477a;'>pluralidade
+de ideias</b></span>, sempre ouvindo todos os integrantes e discutindo o que pode ser
 melhorado nos projetos.<br><br>
 No futuro, pretendemos nos tornar uma empresa renomada, possibilitando cada vez
 mais a prestação de serviços de qualidade aos nossos clientes, e nos tornando
