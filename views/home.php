@@ -147,7 +147,7 @@
 
 <div class="container" id="mvv">
   <div class="row">
-    <div class="col-6" id="txt_mvv_div"> <h4 class="titulos">Missão, Visão e Valores</h4><hr class="linha_txt">
+    <div class="col-6" id="txt_mvv_div"> <h4 class="titulos">Missão, Visão e Valores</h4><hr id="linha_txt_mvv">
     <p class="textos"><?=$txt_missao_visao_valores?></p>
     </div>
     <div class="col-6" id="img_mvv_div">
