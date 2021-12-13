@@ -107,18 +107,38 @@
   <div class="row">
     <div class="col">
     <img class="imgs_sobre" style="border-radius: 50%;" src="<?=$img_files[1]?>"><br><br>
-    <p class="textos"><?=$desc_func[0]?></p>
+    <center><button onclick="abrir_desc1()" style="background-color: #035794;" id="bttn_abrir_desc1" class="btn btn-primary">Ver mais</button></center>
+    <p style="display:none" id="text_desc1" class="textos"><?=$desc_func[0]?></p>
     </div>
     <div class="col">
     <img class="imgs_sobre" style="border-radius: 50%;" src="<?=$img_files[2]?>"><br><br>
-    <p class="textos"><?=$desc_func[1]?></p>
+    <center><button onclick="abrir_desc2()" style="background-color: #035794;" id="bttn_abrir_desc2" class="btn btn-primary">Ver mais</button></center>
+    <p style="display:none" id="text_desc2" class="textos"><?=$desc_func[1]?></p>
     </div>
     <div class="col">
     <img class="imgs_sobre" style="border-radius: 50%;" src="<?=$img_files[3]?>"><br><br>
-    <p class="textos"><?=$desc_func[2]?></p>
+    <center><button onclick="abrir_desc3()" style="background-color: #035794;" id="bttn_abrir_desc3" class="btn btn-primary">Ver mais</button></center>
+    <p style="display:none" id="text_desc3" class="textos"><?=$desc_func[2]?></p>
     </div>
   </div>
 </div><br><br>
+
+<script>
+  //Efeitos para abrir as descrições da equipe
+  function abrir_desc1() {
+      document.getElementById("bttn_abrir_desc1").style.display = "none";
+      document.getElementById("text_desc1").style.display = "block";
+  }
+  function abrir_desc2() {
+      document.getElementById("bttn_abrir_desc2").style.display = "none";
+      document.getElementById("text_desc2").style.display = "block";
+  }
+  function abrir_desc3() {
+      document.getElementById("bttn_abrir_desc3").style.display = "none";
+      document.getElementById("text_desc3").style.display = "block";
+  }
+</script>
+
 
 <div class="container" id="mvv">
   <div class="row">
