@@ -14,8 +14,8 @@ apresentam. Por outro lado, nossa logomarca enfatiza a importância do uso da
 Internet, pois com ela é possível estabelecer conexões com todos os lugares
 do planeta, formando assim uma conexão extraordinária que pode mudar
 completamente a sociedade. Como ideia principal, que é buscar o
-desenvolvimento profissional de nossos clientes, a TRL Sites disponibiliza o
-seu site e a sua evolução!";
+desenvolvimento profissional de nossos clientes, a TRL Sites disponibiliza <span style='color: #01477a;'>o
+seu site e a sua evolução!</span>";
 
 $desc_func = array();
 $desc_func[0] = "Olá, sou o Luciano, gerente, cofundador e
