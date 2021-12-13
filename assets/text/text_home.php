@@ -10,7 +10,7 @@ Santos decidiram montar uma empresa para padronizar e profissionalizar o site
 a ser desenvolvido. Depois de muitas reuniões, decidiram em conjunto o nome
 da empresa como TRL Sites, porque tem as iniciais dos seus fundadores, estas
 são as três forças da empresa, comprovando o conjunto de ideias que
-apresentam. Por outro lado, nossa logomarca enfatiza a importância do uso da
+apresentam.<br> Por outro lado, nossa logomarca enfatiza a importância do uso da
 Internet, pois com ela é possível estabelecer conexões com todos os lugares
 do planeta, formando assim uma conexão extraordinária que pode mudar
 completamente a sociedade. Como ideia principal, que é buscar o
