@@ -12,7 +12,7 @@
   $img_files[1] = $img."foto_luciano.jpg";
   $img_files[2] = $img."foto_renan.jpg";
   $img_files[3] = $img."foto_thiago.jpeg";
-  $img_files[4] = $img."pacote_mini.jpg";
+  $img_files[4] = $img."pacote_mini.png";
   $img_files[5] = $img."pacote_medi.png";
   $img_files[6] = $img."pacote_max.png";
   $img_files[7] = $img."missao_visao_valores.png";
