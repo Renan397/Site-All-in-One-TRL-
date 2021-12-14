@@ -90,7 +90,7 @@
 </script>
 <br>
   
-<div id="sobre_redirect" style="height: 67px;"></div>
+<div id="sobre_redirect" style="height: 80px;"></div>
 <div class="container" id="historia">
   <div class="row">
     <div class="col" id="txt_historia_div"><h4 class="titulos">TRL Sites</h4><hr class="linha_txt">

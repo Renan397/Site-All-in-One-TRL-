@@ -156,7 +156,7 @@
         </div>
     </div>
     <div class="footer-copyright">
-        <p>© 2021 Copyright - TRL Sites</p>
+        <p>© 2021 Copyright - TRL Sites <img style="height: 25px; width: 25px;" src="assets/img/brazil_footer.png"></p>
     </div>
 </footer>
 

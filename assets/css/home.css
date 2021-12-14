@@ -80,6 +80,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     border: 5px inset #0069b3;
+    box-shadow: 0 0 1em #57a8f3;
 }
 
 #back-to-top {

@@ -5,8 +5,8 @@
     <input type="text" name="name" required="required" placeholder="Digite aqui o seu nome.." id="campo_nome" onfocus="clicou_campo_nome()" onblur="nao_clicou_campo_nome()" class="form-control">
   </div>
   <div class="col-md-6">
-    <label class="form-label">Email:</label>
-    <input type="email" name="email" required="required" placeholder="Digite aqui o seu email..." id="campo_email" onfocus="clicou_campo_email()" onblur="nao_clicou_campo_email()" class="form-control">
+    <label class="form-label">Telefone ou Email:</label>
+    <input type="email" name="email" required="required" placeholder="Digite aqui o seu telefone ou email..." id="campo_email" onfocus="clicou_campo_email()" onblur="nao_clicou_campo_email()" class="form-control">
   </div><br><br><br><br>
   <div class="col-md-6">
     <label class="form-label">Mensagem:</label>
