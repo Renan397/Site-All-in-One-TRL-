@@ -29,7 +29,7 @@
 <link rel="stylesheet" href="<?=$css_file?>">
 <script src="<?=$js_file?>"></script>
 </head>
-<body>
+<body id="top">
 
 <header>
   <?php
@@ -41,7 +41,7 @@
 
 <div id="conteudo1">
 
-<br><br><h3 class="titulo_entrada" id="titulo_entrada">Bem-Vindo!</h3><br>
+<br><br><br><br><h3 class="titulo_entrada" id="titulo_entrada">Bem-Vindo!</h3><br>
 <p class="textos" id="txt_entrada"><?=$txt_entrada?></p><br>
 
 
@@ -90,7 +90,7 @@
 </script>
 <br>
   
-
+<div id="sobre_redirect" style="height: 67px;"></div>
 <div class="container" id="historia">
   <div class="row">
     <div class="col" id="txt_historia_div"><h4 class="titulos">TRL Sites</h4><hr class="linha_txt">
@@ -100,7 +100,6 @@
     </div>
   </div>
 </div><br>
-
 
 <div class="container" id="equipe">
 <h4 class="titulos">Sobre nós</h4><hr class="linha_txt"><br>
@@ -140,7 +139,7 @@
 </script>
 
 
-<div class="container" id="mvv">
+<br><br><div class="container" id="mvv">
   <div class="row">
     <div class="col-6" id="txt_mvv_div"> <h4 class="titulos">Missão, Visão e Valores</h4><hr id="linha_txt_mvv">
     <p class="textos"><?=$txt_missao_visao_valores?></p>
@@ -151,6 +150,7 @@
   </div>
 </div>
 
+<div id="contato_redirect" style="height: 67px;"></div>
 <br><h4 class="titulos" id="contato">Contato</h4><hr class="linha_txt">
 <p class="textos" id="txt_contato"><?=$txt_contato?></p>
 <?php 

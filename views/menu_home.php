@@ -6,16 +6,14 @@
                     TRL Sites
                 </a>
             </li>
-
-            <li><a class="divs_redirect" href="#titulo_entrada">Início</a></li>
             
+            <li><a class="divs_redirect" href="#top">Início</a></li>
+
             <li><a class="divs_redirect" href="#carouselExampleControls">Serviços</a></li>
             
-            <li><a class="divs_redirect" href="#historia">História</a></li>
-
-            <li><a class="divs_redirect" href="#equipe">Sobre nós</a></li>
+            <li><a class="divs_redirect" href="#sobre_redirect">Sobre nós</a></li>
             
-            <li><a class="divs_redirect" href="#contato">Contato</a></li>
+            <li><a class="divs_redirect" href="#contato_redirect">Contato</a></li>
         </ul>
         </div>
     </nav>
@@ -30,8 +28,11 @@
         }
 
         #menu-h{
+            position: fixed;
             background-color: #01548f;
             height: 65px;
+            width: 100%;
+            z-index: 3;
         }
         #menu-content {
             display: flex;
