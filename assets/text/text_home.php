@@ -44,12 +44,12 @@ sistemas e realizar os sonhos dos nossos clientes com um back-end
 funcional e seguro, utilizando as boas práticas que tenho em minha
 bagagem curricular.";
 
-$txt_missao_visao_valores = "Nossa empresa tem o objetivo de transformar ideias em projetos
-reais, com o auxílio da tecnologia. Além disso, vemos como missão do grupo
-TRL oferecer aos seus clientes novas formas de expandir seu negócio, de uma
+$txt_missao_visao_valores = "Nossa empresa tem o objetivo de transformar <b><span style='color: #01477a;'>ideias</b></span> em <b><span style='color: #01477a;'>projetos
+reais</b></span>, com o auxílio da tecnologia. Além disso, vemos como missão do grupo
+TRL oferecer aos seus clientes novas formas de <b><span style='color: #01477a;'>expandir seu negócio</b></span>, de uma
 forma mais acessível, garantindo a segurança de poder investir em algo que
-vai trazer bons retornos para seus empreendimentos.<br><br>
-Prezamos muito pela <b><span style='color: #01477a;'>ética</b></span>, <b><span style='color: #01477a;'>pontualidade com as entregas</b></span>,
+vai trazer <b><span style='color: #01477a;'>bons retornos</b></span> para seus <b><span style='color: #01477a;'>empreendimentos</b></span>.<br><br>
+Prezamos muito pela <b><span style='color: #01477a;'>ética</b></span>, <b><span style='color: #01477a;'>pontualidade</b></span> com as entregas,
 <b><span style='color: #01477a;'>profissionalismo</b></span>, <b><span style='color: #01477a;'>dedicação</b></span>, e o trabalho sempre feito com base na <b><span style='color: #01477a;'>pluralidade
 de ideias</b></span>, sempre ouvindo todos os integrantes e discutindo o que pode ser
 melhorado nos projetos.<br><br>
