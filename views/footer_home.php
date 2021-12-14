@@ -4,6 +4,7 @@
  $img_files[9] = $img."logo_whatsapp.png";
  $img_files[10] = $img."logo_facebook.png";
  $img_files[11] = $img."logo_instagram.png";
+ $img_files[12] = $img."brazil_footer.png";
 ?>
 <html>
 <style>
