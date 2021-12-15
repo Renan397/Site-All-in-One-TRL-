@@ -4,7 +4,7 @@ $txt_entrada = "Você está na página oficial da TRL Sites! Conheça mais sobre
 $txt_servicos = "Primeiramente, você está totalmente satisfeito com o rendimento do seu negócio? Bem, se a resposta for sim, você está no lugar certo, já se a resposta for não, você também está no lugar certo. Por que? A TRL pode te oferecer um site, totalmente moderno, com estilização e banco de dados integrados, esse site vai te ajudar a alavancar suas vendas, visto que muitas pessoas poderiam ver as ofertas da suas empresa ou entrar em contato com a mesma, apenas com um toque na tela do celular ou um clique na tela do computador.<br><br>E a consultoria? <b>Totalmente gratuita!</b> Disponilizamos esse serviço para que você tenha a garantia de que vai ter um bom produto, e sem gastos iniciais. Já imaginou suas vendas subindo a cada clique de um novo cliente? Pois então veja abaixo nossas ofertas, caso surja o interesse, preencha o formulário no fim da página, será um prazer ajudá-lo!<br><br>";
 
 $txt_historia = "Nossa organização nasceu a partir do trabalho de conclusão de uma
-matéria no curso de informática para Internet, no qual foi necessário o
+matéria no curso de Informática para Internet, no qual foi necessário o
 desenvolvimento de um site. Por isso, Luciano Júnior, Thiago Martins e Renan dos
 Santos decidiram montar uma empresa para padronizar e profissionalizar os sites
 a serem desenvolvidos. Depois de muitas reuniões, decidiram em conjunto o nome
