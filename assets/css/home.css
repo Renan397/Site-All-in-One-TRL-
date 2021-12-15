@@ -94,16 +94,28 @@ body {
     align-items: center;
 }
 
-#back-to-top {
-    position: fixed;
-    bottom: 50px;
-    right: 50px;
-    transition: 0.5s;
+#bttn_abrir_desc1 {
+transition: 0.5s;
 }
 
-#back-to-top:hover {
-    transform: scale(1.1);
-    cursor: pointer;
+#bttn_abrir_desc1:hover {
+transform: scale(1.1);
+}
+
+#bttn_abrir_desc2 {
+    transition: 0.5s;
+    }
+    
+#bttn_abrir_desc2:hover {
+transform: scale(1.1);
+}
+
+#bttn_abrir_desc3 {
+transition: 0.5s;
+}
+        
+#bttn_abrir_desc3:hover {
+transform: scale(1.1);
 }
 
 #form_ctt {

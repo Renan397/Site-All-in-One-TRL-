@@ -78,16 +78,6 @@
       </a>
     </div>
 </div>
-<script>
-  function entrou_carrossel() {
-    document.getElementById("botao_anterior").style.display = "block";
-    document.getElementById("botao_proxima").style.display = "block";
-  }
-  function saiu_carrossel() {
-    document.getElementById("botao_anterior").style.display = "none";
-    document.getElementById("botao_proxima").style.display = "none";
-  }
-</script>
 <br>
   
 <div id="sobre_redirect" style="height: 80px;"></div>
@@ -106,40 +96,24 @@
   <div class="row">
     <div class="col">
     <img class="imgs_sobre" style="border-radius: 50%;" src="<?=$img_files[1]?>"><br><br>
-    <center><span class="spans_sobre">Gerente</span><br><br><span class="spans_sobre">Front-end</span><br><br><span class="spans_sobre">Divulgação</span><br><br></b></center>
-    <center><button onclick="abrir_desc1()" style="background-color: #035794;" id="bttn_abrir_desc1" class="btn btn-primary">Ver mais... 🡳</button></center>
+    <center><span class="spans_sobre">Gerente</span><br><br><span class="spans_sobre">Front-end</span><br><br><span class="spans_sobre">Divulgação</span><br><br></center><br>
+    <center><button onclick="abrir_desc1()" style="background: radial-gradient(circle, rgba(17,132,205,1) 0%, rgba(0,212,255,1) 0%, rgba(0,110,182,1) 0%, rgba(0,87,148,1) 76%, rgba(0,186,223,1) 94%, rgba(0,186,223,1) 100%);" id="bttn_abrir_desc1" class="btn btn-primary">Ver mais... 🡳</button></center>
     <p style="display:none" id="text_desc1" class="textos"><?=$desc_func[0]?></p>
     </div>
     <div class="col">
     <img class="imgs_sobre" style="border-radius: 50%;" src="<?=$img_files[2]?>"><br><br>
-    <center><span class="spans_sobre">Front-end</span><br><br><span class="spans_sobre">Design</span><br><br></b></center>
-    <center><button onclick="abrir_desc2()" style="background-color: #035794;" id="bttn_abrir_desc2" class="btn btn-primary">Ver mais... 🡳</button></center>
+    <center><span class="spans_sobre">Front-end</span><br><br><span class="spans_sobre">Design</span><br><br></center><br>
+    <center><button onclick="abrir_desc2()" style="background: radial-gradient(circle, rgba(17,132,205,1) 0%, rgba(0,212,255,1) 0%, rgba(0,110,182,1) 0%, rgba(0,87,148,1) 76%, rgba(0,186,223,1) 94%, rgba(0,186,223,1) 100%);" id="bttn_abrir_desc2" class="btn btn-primary">Ver mais... 🡳</button></center>
     <p style="display:none" id="text_desc2" class="textos"><?=$desc_func[1]?></p>
     </div>
     <div class="col">
     <img class="imgs_sobre" style="border-radius: 50%;" src="<?=$img_files[3]?>"><br><br>
-    <center><span class="spans_sobre">Back-end</span><br><br><span class="spans_sobre">Fluxo de dados</span><br><br></b></center>
-    <center><button onclick="abrir_desc3()" style="background-color: #035794;" id="bttn_abrir_desc3" class="btn btn-primary">Ver mais... 🡳</button></center>
+    <center><span class="spans_sobre">Back-end</span><br><br><span class="spans_sobre">Fluxo de dados</span><br><br></center><br>
+    <center><button onclick="abrir_desc3()" style="background: radial-gradient(circle, rgba(17,132,205,1) 0%, rgba(0,212,255,1) 0%, rgba(0,110,182,1) 0%, rgba(0,87,148,1) 76%, rgba(0,186,223,1) 94%, rgba(0,186,223,1) 100%);" id="bttn_abrir_desc3" class="btn btn-primary">Ver mais... 🡳</button></center>
     <p style="display:none" id="text_desc3" class="textos"><?=$desc_func[2]?></p>
     </div>
   </div>
 </div><br><br>
-
-<script>
-  //Efeitos para abrir as descrições da equipe
-  function abrir_desc1() {
-      document.getElementById("bttn_abrir_desc1").style.display = "none";
-      document.getElementById("text_desc1").style.display = "block";
-  }
-  function abrir_desc2() {
-      document.getElementById("bttn_abrir_desc2").style.display = "none";
-      document.getElementById("text_desc2").style.display = "block";
-  }
-  function abrir_desc3() {
-      document.getElementById("bttn_abrir_desc3").style.display = "none";
-      document.getElementById("text_desc3").style.display = "block";
-  }
-</script>
 
 
 <br><br><div class="container" id="mvv">
@@ -170,36 +144,6 @@ include_once "views/footer_home.php";
 ?>
 </div>
 </div>
-
-
-<img id="back-to-top" alt="Voltar ao topo" style="width: 60px; height: 60px;" src="assets/img/bttn_voltar_topo.png">
-<script>
-  //Botão de voltar ao topo
-  var btn = document.querySelector("#back-to-top");
-  btn.addEventListener("click", function() {
-  window.scrollTo(0, 0);
-});
-</script>
-
-<script>
-//Site rodando no celular
-  function isMobile() {
-    var userAgent = navigator.userAgent.toLowerCase();
-    return (userAgent.search(/(android|avantgo|blackberry|bolt|boost|cricket|docomo|fone|hiptop|mini|mobi|palm|phone|pie|tablet|up\.browser|up\.link|webos|wos)/i) != -1);
-}
-
-if (isMobile()) {
-   document.getElementById("html").style.zoom = "150%";
-   document.getElementById("txt_historia_div").classList.remove("col");
-   document.getElementById("txt_historia_div").classList.add("col-10");
-   document.getElementById("img_logo_div").classList.remove("col-4");
-   document.getElementById("img_logo_div").classList.add("col-10");
-   document.getElementById("txt_mvv_div").classList.remove("col-6");
-   document.getElementById("txt_mvv_div").classList.add("col-10");
-   document.getElementById("img_mvv_div").classList.remove("col-6");
-   document.getElementById("img_mvv_div").classList.add("col-10");
-}
-</script>
 
 </body>
 <footer>
