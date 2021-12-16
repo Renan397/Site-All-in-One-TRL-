@@ -145,6 +145,26 @@ include_once "views/footer_home.php";
 </div>
 </div>
 
+<script>
+//Site rodando no celular
+  function isMobile() {
+    var userAgent = navigator.userAgent.toLowerCase();
+    return (userAgent.search(/(android|avantgo|blackberry|bolt|boost|cricket|docomo|fone|hiptop|mini|mobi|palm|phone|pie|tablet|up\.browser|up\.link|webos|wos)/i) != -1);
+}
+
+if (isMobile()) {
+   document.getElementById("html").style.zoom = "150%";
+   document.getElementById("txt_historia_div").classList.remove("col");
+   document.getElementById("txt_historia_div").classList.add("col-10");
+   document.getElementById("img_logo_div").classList.remove("col-4");
+   document.getElementById("img_logo_div").classList.add("col-10");
+   document.getElementById("txt_mvv_div").classList.remove("col-6");
+   document.getElementById("txt_mvv_div").classList.add("col-10");
+   document.getElementById("img_mvv_div").classList.remove("col-6");
+   document.getElementById("img_mvv_div").classList.add("col-10");
+}
+</script>
+
 </body>
 <footer>
 </footer>
