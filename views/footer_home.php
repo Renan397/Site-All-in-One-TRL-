@@ -140,7 +140,7 @@
             <div class="col-sm-5"><br><br>
                 <ul>
                     <li>
-                        <p><b>Telefone:</b> <br>(Gerente) Luciano Júnior - (11) 96035-1235<br> (Dev. Front-end) Renan dos Santos - (11) 96726-3940<br>(Dev. Back-end) Thiago Martins - (11) 94272-1549</p>
+                        <p><b>Telefone:</b> <br>(Gerente e Dev. Front-end) Luciano Júnior - (11) 96035-1235<br> (Dev. Front-end) Renan dos Santos - (11) 96726-3940<br>(Dev. Back-end) Thiago Martins - (11) 94272-1549</p>
                     </li><br>
                     <li>
                         <p><b>Endereço:</b> Av. Salgado Filho, 3501 - Centro, Guarulhos - SP</p>
