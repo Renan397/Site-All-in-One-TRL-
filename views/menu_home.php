@@ -2,12 +2,12 @@
 <div id="menu-content">
         <ul>
             <li>
-                <a href="#top" id="trl_menu">
+                <a href="#top_redirect" id="trl_menu">
                     TRL Sites
                 </a>
             </li>
 
-            <li><a class="divs_redirect" href="#carouselExampleControls">Serviços</a></li>
+            <li><a class="divs_redirect" href="#servicos_redirect">Serviços</a></li>
             
             <li><a class="divs_redirect" href="#sobre_redirect">Sobre nós</a></li>
             
@@ -27,7 +27,7 @@
 
         #menu-h{
             position: fixed;
-            background: radial-gradient(circle, rgba(0,112,184,1) 0%, rgba(0,212,255,1) 0%, rgba(0,110,182,1) 0%, rgba(0,105,179,1) 65%, rgba(0,212,255,1) 100%);;
+            background: radial-gradient(circle, rgba(0,112,184,1) 0%, rgba(0,212,255,1) 0%, rgba(0,110,182,1) 0%, rgba(0,105,179,1) 65%, rgba(47,163,232,100) 100%);;
             height: 70px;
             width: 100%;
             z-index: 3;

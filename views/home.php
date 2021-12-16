@@ -29,7 +29,7 @@
 <link rel="stylesheet" href="<?=$css_file?>">
 <script src="<?=$js_file?>"></script>
 </head>
-<body id="top">
+<body id="top_redirect">
 
 <header>
   <?php
@@ -44,7 +44,7 @@
 <br><br><br><br><h3 class="titulo_entrada" id="titulo_entrada">Bem-Vindo!</h3><br>
 <p class="textos" id="txt_entrada"><?=$txt_entrada?></p><br>
 
-
+<div id="servicos_redirect" style="height: 20px;"></div>
 <div class="container" id="servicos">
   <div class="row">
     <div class="col-12"><h4 class="titulos">Serviços</h4><hr class="linha_txt">
