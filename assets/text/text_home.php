@@ -15,7 +15,7 @@ matéria no curso de Informática para Internet, no qual foi necessário o
 desenvolvimento de um site. Por isso, Luciano Júnior, Thiago Martins e Renan dos
 Santos decidiram montar uma empresa para padronizar e profissionalizar os sites
 a serem desenvolvidos. Depois de muitas reuniões, decidiram em conjunto o nome
-da empresa como TRL Sites, por conter as iniciais dos seus fundadores, estas
+da empresa como TRL Sites, por conter as iniciais dos seus fundadores, essas
 são as três forças da empresa, comprovando o conjunto de ideias que
 apresentam.<br><br> 
 Por outro lado, nossa logomarca enfatiza a importância do uso da
