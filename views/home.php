@@ -17,6 +17,9 @@
   $img_files[6] = $img."pacote_max.png";
   $img_files[7] = $img."missao_visao_valores.png";
   $img_files[8] = $img."bttn_voltar_topo.png";
+  $img_files[13] = $img."logo_facebook_serv.png";
+  $img_files[14] = $img."logo_instagram_serv.png";
+  $img_files[15] = $img."logo_gmail_serv.png";
   ?>
 <head>
 <title>TRL Sites - Bem-vindo!</title>
@@ -78,9 +81,31 @@
       </a>
     </div>
 </div>
-<br>
-  
-<div id="sobre_redirect" style="height: 80px;"></div>
+<br><br>
+
+  <div class="container" id="redes_serv">
+  <div class="row">
+    <div class="col-12">
+    <h4 class="titulos">Redes Sociais</h4><hr class="linha_txt">
+    <p class="textos" id="txt_redes_serv"><?=$desc_redes[0]?></p><br></div>
+    <div class="row">
+    <div class="col">
+    <img src="<?=$img_files[13]?>" class="img_redes_serv"><br>
+    <p><?=$desc_redes[1]?></p>
+    </div>
+    <div class="col">
+    <img src="<?=$img_files[14]?>" class="img_redes_serv"><br>
+    <p><?=$desc_redes[2]?></p>
+    </div>
+    <div class="col">
+    <img src="<?=$img_files[15]?>" class="img_redes_serv"><br>
+    <p><?=$desc_redes[3]?></p>
+    </div>
+  </div>
+  </div>
+  </div>
+
+  <div id="sobre_redirect" style="height: 80px;"></div>
 <div class="container" id="historia">
   <div class="row">
     <div class="col" id="txt_historia_div"><h4 class="titulos">TRL Sites</h4><hr class="linha_txt">

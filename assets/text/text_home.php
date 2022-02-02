@@ -3,6 +3,13 @@ $txt_entrada = "Você está na página oficial da TRL Sites, conheça mais sobre
 
 $txt_servicos = "Primeiramente, você está totalmente satisfeito com o rendimento do seu negócio? Bem, se a resposta for sim, você está no lugar certo, já se a resposta for não, você também está no lugar certo. Por que? A TRL pode te oferecer um site, totalmente moderno, com estilização e banco de dados integrados, esse site vai te ajudar a alavancar suas vendas, visto que muitas pessoas poderiam ver as ofertas da suas empresa ou entrar em contato com a mesma, apenas com um toque na tela do celular ou um clique na tela do computador.<br><br>E a consultoria? <b>Totalmente gratuita!</b> Disponilizamos esse serviço para que você tenha a garantia de que vai ter um bom produto, e sem gastos iniciais. Já imaginou suas vendas subindo a cada clique de um novo cliente? Pois então veja abaixo nossas ofertas, caso surja o interesse, preencha o formulário no fim da página, será um prazer ajudá-lo!<br><br>";
 
+$desc_redes = array();
+$desc_redes[0] = "Junto ao site, também oferecemos serviços de criação e administração de contas e páginas nas seguintes redes sociais:";
+$desc_redes[1] = "Uma página no <b><span style='color: #0048E0;'>Facebook</b></span> para divulgar o seu negócio!";
+$desc_redes[2] = "Outra página no <b><span style='color: #E1306C;'>Instagram</b></span>, para postar imagens da loja, ofertas novas, relatos de clientes, e muito mais!";
+$desc_redes[3] = "E uma conta no <b><span style='color: #008000;'>Gmail</b></span>, para receber emails, facilitando o seu contato com clientes e fornecedores.";
+
+
 $txt_historia = "Nossa organização nasceu a partir do trabalho de conclusão de uma
 matéria no curso de Informática para Internet, no qual foi necessário o
 desenvolvimento de um site. Por isso, Luciano Júnior, Thiago Martins e Renan dos
@@ -45,8 +52,8 @@ funcional e seguro, utilizando as boas práticas que tenho em minha
 bagagem curricular.";
 
 $txt_missao_visao_valores = "Nossa empresa tem o objetivo de transformar <b><span style='color: #01477a;'>ideias</b></span> em <b><span style='color: #01477a;'>projetos
-reais</b></span>, com o auxílio da tecnologia. Além disso, vemos como missão do grupo
-TRL oferecer aos seus clientes novas formas de <b><span style='color: #01477a;'>expandir seu negócio</b></span>, de uma
+reais</b></span>, com o auxílio da tecnologia. Temos como clientes ideais pessoas que possuam <b><span style='color: #01477a;'>pequenas</b></span> e <b><span style='color: #01477a;'>médias empresas</b></span> de
+comércio, situadas no estado de São Paulo.<br><br> Além disso, vemos como missão do grupo TRL oferecer aos seus clientes novas formas de <b><span style='color: #01477a;'>expandir seu negócio</b></span>, de uma
 forma mais acessível, garantindo a segurança de poder investir em algo que
 vai trazer <b><span style='color: #01477a;'>bons retornos</b></span> para seus <b><span style='color: #01477a;'>empreendimentos</b></span>.<br><br>
 Prezamos muito pela <b><span style='color: #01477a;'>ética</b></span>, <b><span style='color: #01477a;'>pontualidade</b></span> com as entregas,

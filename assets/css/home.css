@@ -54,6 +54,10 @@ body {
     text-align: center;
 }
 
+#txt_redes_serv {
+    text-align: center;
+}
+
 #txt_contato {
     text-align: center;
 }
@@ -64,6 +68,13 @@ body {
 
 .textos {
     text-align: justify;
+}
+
+#redes_serv {
+    border-left: solid 3px #0069b3;
+    padding: 25px;
+    border-right: solid 3px #0069b3;
+    border-radius: 1%;
 }
 
 #equipe {
@@ -81,6 +92,14 @@ body {
     margin-right: auto;
     border: 5px inset #0069b3;
     box-shadow: 0 0 1em #57a8f3;
+}
+.img_redes_serv {
+    width: 110px;
+    height: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10%;
 }
 
 .spans_sobre {
@@ -103,8 +122,8 @@ transform: scale(1.1);
 }
 
 #bttn_abrir_desc2 {
-    transition: 0.5s;
-    }
+transition: 0.5s;
+}
     
 #bttn_abrir_desc2:hover {
 transform: scale(1.1);
