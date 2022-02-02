@@ -7,7 +7,7 @@ $desc_redes = array();
 $desc_redes[0] = "Junto ao site, também oferecemos serviços de criação e administração de contas e páginas nas seguintes redes sociais:";
 $desc_redes[1] = "Uma página no <b><span style='color: #0048E0;'>Facebook</b></span> para divulgar o seu negócio!";
 $desc_redes[2] = "Outra página no <b><span style='color: #E1306C;'>Instagram</b></span>, para postar imagens da loja, ofertas novas, relatos de clientes, e muito mais!";
-$desc_redes[3] = "E uma conta no <b><span style='color: #008000;'>Gmail</b></span>, para receber emails, facilitando o seu contato com clientes e fornecedores.";
+$desc_redes[3] = "E uma conta no <b><span style='color: #008000;'>Gmail</b></span>, para receber e enviar emails, facilitando o seu contato com clientes e fornecedores.";
 
 
 $txt_historia = "Nossa organização nasceu a partir do trabalho de conclusão de uma
