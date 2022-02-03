@@ -179,6 +179,7 @@ include_once "views/footer_home.php";
 
 if (isMobile()) {
    document.getElementById("html").style.zoom = "150%";
+   document.getElementById("carouselExampleControls").style.width = "100%";
    document.getElementById("txt_historia_div").classList.remove("col");
    document.getElementById("txt_historia_div").classList.add("col-10");
    document.getElementById("img_logo_div").classList.remove("col-4");
