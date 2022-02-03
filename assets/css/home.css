@@ -35,9 +35,10 @@ body {
 }
 
 #carouselExampleControls {
-    border: double 5px #0069b3;
+    border-top: double 3px #0069b3;
+    border-bottom: double 3px #0069b3;
     border-radius: 5px;
-    width: 80%;
+    width: 95%;
     height: 80%;
     box-shadow: 0 0 1em #57a8f3;
 }
