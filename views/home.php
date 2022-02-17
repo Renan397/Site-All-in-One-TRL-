@@ -28,6 +28,7 @@
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <link rel="shortcut icon" type="imagex/png" href="<?=$img_files[0]?>">
 <link rel="stylesheet" href="<?=$css_file?>">
 <script src="<?=$js_file?>"></script>
@@ -122,19 +123,19 @@
     <div class="col">
     <img class="imgs_sobre" style="border-radius: 50%;" src="<?=$img_files[1]?>"><br><br>
     <center><span class="spans_sobre">Gerente</span><br><br><span class="spans_sobre">Front-end</span><br><br><span class="spans_sobre">Divulgação</span><br><br></center><br>
-    <center><button onclick="abrir_desc1()" style="background: radial-gradient(circle, rgba(17,132,205,1) 0%, rgba(0,212,255,1) 0%, rgba(0,110,182,1) 0%, rgba(0,87,148,1) 76%, rgba(0,186,223,1) 94%, rgba(0,186,223,1) 100%);" id="bttn_abrir_desc1" class="btn btn-primary">Ver mais... 🡳</button></center>
+    <center><button style="background: radial-gradient(circle, rgba(17,132,205,1) 0%, rgba(0,212,255,1) 0%, rgba(0,110,182,1) 0%, rgba(0,87,148,1) 76%, rgba(0,186,223,1) 94%, rgba(0,186,223,1) 100%);" id="bttn_abrir_desc1" class="btn btn-primary">Ver mais... 🡳</button></center>
     <p style="display:none" id="text_desc1" class="textos"><?=$desc_func[0]?></p>
     </div>
     <div class="col">
     <img class="imgs_sobre" style="border-radius: 50%;" src="<?=$img_files[2]?>"><br><br>
     <center><span class="spans_sobre">Front-end</span><br><br><span class="spans_sobre">Design</span><br><br></center><br>
-    <center><button onclick="abrir_desc2()" style="background: radial-gradient(circle, rgba(17,132,205,1) 0%, rgba(0,212,255,1) 0%, rgba(0,110,182,1) 0%, rgba(0,87,148,1) 76%, rgba(0,186,223,1) 94%, rgba(0,186,223,1) 100%);" id="bttn_abrir_desc2" class="btn btn-primary">Ver mais... 🡳</button></center>
+    <center><button style="background: radial-gradient(circle, rgba(17,132,205,1) 0%, rgba(0,212,255,1) 0%, rgba(0,110,182,1) 0%, rgba(0,87,148,1) 76%, rgba(0,186,223,1) 94%, rgba(0,186,223,1) 100%);" id="bttn_abrir_desc2" class="btn btn-primary">Ver mais... 🡳</button></center>
     <p style="display:none" id="text_desc2" class="textos"><?=$desc_func[1]?></p>
     </div>
     <div class="col">
     <img class="imgs_sobre" style="border-radius: 50%;" src="<?=$img_files[3]?>"><br><br>
     <center><span class="spans_sobre">Back-end</span><br><br><span class="spans_sobre">Fluxo de dados</span><br><br></center><br>
-    <center><button onclick="abrir_desc3()" style="background: radial-gradient(circle, rgba(17,132,205,1) 0%, rgba(0,212,255,1) 0%, rgba(0,110,182,1) 0%, rgba(0,87,148,1) 76%, rgba(0,186,223,1) 94%, rgba(0,186,223,1) 100%);" id="bttn_abrir_desc3" class="btn btn-primary">Ver mais... 🡳</button></center>
+    <center><button style="background: radial-gradient(circle, rgba(17,132,205,1) 0%, rgba(0,212,255,1) 0%, rgba(0,110,182,1) 0%, rgba(0,87,148,1) 76%, rgba(0,186,223,1) 94%, rgba(0,186,223,1) 100%);" id="bttn_abrir_desc3" class="btn btn-primary">Ver mais... 🡳</button></center>
     <p style="display:none" id="text_desc3" class="textos"><?=$desc_func[2]?></p>
     </div>
   </div>
