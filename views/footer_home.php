@@ -149,7 +149,7 @@
             </div>
             <div class="col-sm-3">
                 <div class="social-networks">
-                    <a href="https://api.whatsapp.com/send?phone=551196035-1235&text=sua%20mensagem" class="whatsapp" target="_blank"><img class='img_footer' src='<?= $img_files[9] ?>'></i></a>
+                    <a href="https://api.whatsapp.com/send?phone=551196035-1235&text=Quero%20contactar%20a%20TRL%20Sites..." class="whatsapp" target="_blank"><img class='img_footer' src='<?= $img_files[9] ?>'></i></a>
                     <a href="https://www.facebook.com/TRL-Sites-104897937613126" class="facebook" target="_blank"><img class='img_footer' src='<?= $img_files[10] ?>'></i></a>
                     <a href="https://www.instagram.com/trlsites3/" class="instagram" target="_blank"><img class='img_footer' src='<?= $img_files[11] ?>'></a>
                 </div>
