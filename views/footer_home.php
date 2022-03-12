@@ -30,7 +30,7 @@
     }
 
     #myFooter .footer-copyright {
-        background-color: #0164ac;
+        background: radial-gradient(circle, rgba(0,112,184,1) 0%, rgba(0,212,255,1) 0%, rgba(0,110,182,1) 0%, rgba(0,105,179,1) 65%, rgba(47,163,232,100) 100%);
         padding-top: 3px;
         padding-bottom: 3px;
         text-align: center;
