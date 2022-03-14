@@ -22,7 +22,7 @@
   $img_files[15] = $img."logo_gmail_serv.png";
   ?>
 <head>
-<title>TRL Sites - Bem-vindo!</title>
+<title>TRL Sites</title>
 <meta charset="utf-8">
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 <!-- jQuery Bootstrap -->
@@ -47,7 +47,7 @@
 
 <div id="conteudo1">
 
-<br><br><br><br><h3 class="titulo_entrada" id="titulo_entrada">Bem-Vindo!</h3><br>
+<br><br><br><br><h3 class="titulo_entrada" id="titulo_entrada">Bem-vindo(a)!</h3><br>
 <p class="textos" id="txt_entrada"><?=$txt_entrada?></p><br>
 
 <div id="servicos_redirect" style="height: 20px;"></div>
