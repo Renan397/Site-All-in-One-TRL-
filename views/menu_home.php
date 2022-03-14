@@ -17,6 +17,7 @@
     </nav>
       <style>
          @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+         @import url('https://fonts.googleapis.com/css2?family=Satisfy&family=Shippori+Antique+B1&display=swap');
 
         * {
             margin: 0 auto;
@@ -24,7 +25,6 @@
             box-sizing: border-box;
             font-family: 'Open Sans', sans-serif;
         }
-
         #menu-h{
             position: fixed;
             background: radial-gradient(circle, rgba(0,112,184,1) 0%, rgba(0,212,255,1) 0%, rgba(0,110,182,1) 0%, rgba(0,105,179,1) 65%, rgba(47,163,232,100) 100%);
@@ -58,6 +58,12 @@
             transition: background .4s;
         }
 
+        #trl_menu {
+            font-family: 'Shippori Antique B1', sans-serif;
+        }
+        .divs_redirect {
+            font-family: 'Shippori Antique B1', sans-serif;
+        }
         .divs_redirect:hover {
             background-color: rgb(24, 139, 233);
         }
