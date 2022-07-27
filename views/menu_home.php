@@ -16,9 +16,6 @@
         </div>
     </nav>
       <style>
-         @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
-         @import url('https://fonts.googleapis.com/css2?family=Satisfy&family=Shippori+Antique+B1&display=swap');
-
         * {
             margin: 0 auto;
             padding: 0;
