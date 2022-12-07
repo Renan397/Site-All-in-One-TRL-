@@ -20,6 +20,7 @@
   $img_files[13] = $img."logo_facebook_serv.png";
   $img_files[14] = $img."logo_instagram_serv.png";
   $img_files[15] = $img."logo_gmail_serv.png";
+  $img_files[16] = $img."img_txt_historia2.gif";
   ?>
 <head>
 <title>TRL Sites - O seu site, a sua evolução!</title>
@@ -112,7 +113,11 @@
 <div class="container" id="historia">
   <div class="row">
     <div class="col" id="txt_historia_div"><h4 class="titulos">TRL Sites</h4><hr class="linha_txt">
-    <p class="textos"><?=$txt_historia?></p></div>
+    <p class="textos"><?=$txt_historia?></p>
+    <button id="verMais_historia"><svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="#0069b3" class="bi bi-arrow-down-square-fill" viewBox="0 0 16 16"><path d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2zm6.5 4.5v5.793l2.146-2.147a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 1 1 .708-.708L7.5 10.293V4.5a.5.5 0 0 1 1 0z"/></svg></button>
+    <p class="textos" id="txt_historia2"><?=$txt_historia2?></p>
+    <img id="img_verMais_historia" src="<?=$img_files[16]?>" style="display: block; margin-right: auto; margin-left: auto; width: 500px; height: 250px;">
+    </div>
     <div class="col-4" id="img_logo_div">
     <br><br><img id="img_logo" src="<?=$img_files[0]?>" style="width: 300px; height: 250px;">
     </div>
@@ -124,23 +129,23 @@
   <div class="row">
     <div class="col">
     <img class="imgs_sobre" style="border-radius: 50%;" src="<?=$img_files[1]?>"><br>
-    <center><h4 class="nomes">Luciano</h4></center><br>
+    <h4 class="nomes">Luciano</h4><br>
     <center><span class="spans_sobre">Gerente</span><br><br><span class="spans_sobre">Front-end</span><br><br><span class="spans_sobre">Divulgação</span><br><br></center><br>
-    <center><button style="background: radial-gradient(circle, rgba(17,132,205,1) 0%, rgba(0,212,255,1) 0%, rgba(0,110,182,1) 0%, rgba(0,87,148,1) 76%, rgba(0,186,223,1) 94%, rgba(0,186,223,1) 100%);" id="bttn_abrir_desc1" class="btn btn-primary">Ver mais... <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-down-circle-fill" viewBox="0 0 16 16"><path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4.5a.5.5 0 0 0-1 0v5.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V4.5z"/></svg></button></center>
+    <button style="display: block; margin-right: auto; margin-left: auto; background: radial-gradient(circle, rgba(17,132,205,1) 0%, rgba(0,212,255,1) 0%, rgba(0,110,182,1) 0%, rgba(0,87,148,1) 76%, rgba(0,186,223,1) 94%, rgba(0,186,223,1) 100%);" id="bttn_abrir_desc1" class="btn btn-primary">Ver mais... <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-down-circle-fill" viewBox="0 0 16 16"><path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4.5a.5.5 0 0 0-1 0v5.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V4.5z"/></svg></button>
     <p style="display:none" id="text_desc1" class="textos"><?=$desc_func[0]?></p>
     </div>
     <div class="col">
     <img class="imgs_sobre" style="border-radius: 50%;" src="<?=$img_files[2]?>"><br>
-    <center><h4 class="nomes">Renan</span></h4></center><br>
+    <h4 class="nomes">Renan</span></h4><br>
     <center><span class="spans_sobre">Front-end</span><br><br><span class="spans_sobre">Design</span><br><br></center><br>
-    <center><button style="background: radial-gradient(circle, rgba(17,132,205,1) 0%, rgba(0,212,255,1) 0%, rgba(0,110,182,1) 0%, rgba(0,87,148,1) 76%, rgba(0,186,223,1) 94%, rgba(0,186,223,1) 100%);" id="bttn_abrir_desc2" class="btn btn-primary">Ver mais... <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-down-circle-fill" viewBox="0 0 16 16"><path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4.5a.5.5 0 0 0-1 0v5.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V4.5z"/></svg></button></center>
+    <button style="display: block; margin-right: auto; margin-left: auto; background: radial-gradient(circle, rgba(17,132,205,1) 0%, rgba(0,212,255,1) 0%, rgba(0,110,182,1) 0%, rgba(0,87,148,1) 76%, rgba(0,186,223,1) 94%, rgba(0,186,223,1) 100%);" id="bttn_abrir_desc2" class="btn btn-primary">Ver mais... <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-down-circle-fill" viewBox="0 0 16 16"><path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4.5a.5.5 0 0 0-1 0v5.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V4.5z"/></svg></button>
     <p style="display:none" id="text_desc2" class="textos"><?=$desc_func[1]?></p>
     </div>
     <div class="col">
     <img class="imgs_sobre" style="border-radius: 50%;" src="<?=$img_files[3]?>"><br>
-    <center><h4 class="nomes">Thiago</h4></center><br>
+    <h4 class="nomes">Thiago</h4><br>
     <center><span class="spans_sobre">Back-end</span><br><br><span class="spans_sobre">Fluxo de dados</span><br><br></center><br>
-    <center><button style="background: radial-gradient(circle, rgba(17,132,205,1) 0%, rgba(0,212,255,1) 0%, rgba(0,110,182,1) 0%, rgba(0,87,148,1) 76%, rgba(0,186,223,1) 94%, rgba(0,186,223,1) 100%);" id="bttn_abrir_desc3" class="btn btn-primary">Ver mais... <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-down-circle-fill" viewBox="0 0 16 16"><path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4.5a.5.5 0 0 0-1 0v5.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V4.5z"/></svg></button></center>
+    <button style="display: block; margin-right: auto; margin-left: auto; background: radial-gradient(circle, rgba(17,132,205,1) 0%, rgba(0,212,255,1) 0%, rgba(0,110,182,1) 0%, rgba(0,87,148,1) 76%, rgba(0,186,223,1) 94%, rgba(0,186,223,1) 100%);" id="bttn_abrir_desc3" class="btn btn-primary">Ver mais... <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-down-circle-fill" viewBox="0 0 16 16"><path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4.5a.5.5 0 0 0-1 0v5.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V4.5z"/></svg></button>
     <p style="display:none" id="text_desc3" class="textos"><?=$desc_func[2]?></p>
     </div>
   </div>

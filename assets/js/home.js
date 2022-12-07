@@ -8,6 +8,8 @@ function entrou_carrossel() {
   }
 
 $(document).ready(function(){
+  $("#img_verMais_historia").css("display", "none");
+
   $("#bttn_abrir_desc1").click(function(){
     $("#bttn_abrir_desc1").hide();
     $("#text_desc1").fadeIn();
@@ -21,5 +23,11 @@ $(document).ready(function(){
   $("#bttn_abrir_desc3").click(function(){
     $("#bttn_abrir_desc3").hide();
     $("#text_desc3").fadeIn();
+  });
+
+  $("#verMais_historia").click(function(){
+    $("#verMais_historia").hide();
+    $("#txt_historia2").slideDown();
+    $("#img_verMais_historia").slideDown();
   });
 });

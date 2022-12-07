@@ -85,6 +85,33 @@ div, p, span, button {
     border-radius: 1%;
 }
 
+#verMais_historia {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    border: none;
+    transition: 0.5s;
+}
+
+#verMais_historia:hover {
+    background-color: rgb(176, 176, 176);
+    cursor: pointer;
+}
+
+#txt_historia2 {
+    display: none;
+}
+
+#img_verMais_historia {
+    display: block; 
+    margin-right: auto; 
+    margin-left: auto; 
+    width: 500px; 
+    height: 250px;
+    border: double 5px #0069b3;
+    border-radius: 20px;
+}
+
 #equipe {
     border-left: dashed 5px #0069b3;
     padding: 20px;
@@ -111,6 +138,7 @@ div, p, span, button {
 }
 
 .nomes {
+    text-align: center;
     border-bottom: rgba(0,112,184,1) dashed 1px;
     border-top: rgba(0,112,184,1) dashed 1px;
     border-radius: 20px;
