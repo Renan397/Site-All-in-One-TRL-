@@ -123,21 +123,24 @@
 <h4 class="titulos">Sobre nós</h4><hr class="linha_txt"><br>
   <div class="row">
     <div class="col">
-    <img class="imgs_sobre" style="border-radius: 50%;" src="<?=$img_files[1]?>"><br><br>
+    <img class="imgs_sobre" style="border-radius: 50%;" src="<?=$img_files[1]?>"><br>
+    <center><h4 class="nomes">Luciano</h4></center><br>
     <center><span class="spans_sobre">Gerente</span><br><br><span class="spans_sobre">Front-end</span><br><br><span class="spans_sobre">Divulgação</span><br><br></center><br>
-    <center><button style="background: radial-gradient(circle, rgba(17,132,205,1) 0%, rgba(0,212,255,1) 0%, rgba(0,110,182,1) 0%, rgba(0,87,148,1) 76%, rgba(0,186,223,1) 94%, rgba(0,186,223,1) 100%);" id="bttn_abrir_desc1" class="btn btn-primary">Ver mais... 🡳</button></center>
+    <center><button style="background: radial-gradient(circle, rgba(17,132,205,1) 0%, rgba(0,212,255,1) 0%, rgba(0,110,182,1) 0%, rgba(0,87,148,1) 76%, rgba(0,186,223,1) 94%, rgba(0,186,223,1) 100%);" id="bttn_abrir_desc1" class="btn btn-primary">Ver mais... <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-down-circle-fill" viewBox="0 0 16 16"><path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4.5a.5.5 0 0 0-1 0v5.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V4.5z"/></svg></button></center>
     <p style="display:none" id="text_desc1" class="textos"><?=$desc_func[0]?></p>
     </div>
     <div class="col">
-    <img class="imgs_sobre" style="border-radius: 50%;" src="<?=$img_files[2]?>"><br><br>
+    <img class="imgs_sobre" style="border-radius: 50%;" src="<?=$img_files[2]?>"><br>
+    <center><h4 class="nomes">Renan</span></h4></center><br>
     <center><span class="spans_sobre">Front-end</span><br><br><span class="spans_sobre">Design</span><br><br></center><br>
-    <center><button style="background: radial-gradient(circle, rgba(17,132,205,1) 0%, rgba(0,212,255,1) 0%, rgba(0,110,182,1) 0%, rgba(0,87,148,1) 76%, rgba(0,186,223,1) 94%, rgba(0,186,223,1) 100%);" id="bttn_abrir_desc2" class="btn btn-primary">Ver mais... 🡳</button></center>
+    <center><button style="background: radial-gradient(circle, rgba(17,132,205,1) 0%, rgba(0,212,255,1) 0%, rgba(0,110,182,1) 0%, rgba(0,87,148,1) 76%, rgba(0,186,223,1) 94%, rgba(0,186,223,1) 100%);" id="bttn_abrir_desc2" class="btn btn-primary">Ver mais... <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-down-circle-fill" viewBox="0 0 16 16"><path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4.5a.5.5 0 0 0-1 0v5.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V4.5z"/></svg></button></center>
     <p style="display:none" id="text_desc2" class="textos"><?=$desc_func[1]?></p>
     </div>
     <div class="col">
-    <img class="imgs_sobre" style="border-radius: 50%;" src="<?=$img_files[3]?>"><br><br>
+    <img class="imgs_sobre" style="border-radius: 50%;" src="<?=$img_files[3]?>"><br>
+    <center><h4 class="nomes">Thiago</h4></center><br>
     <center><span class="spans_sobre">Back-end</span><br><br><span class="spans_sobre">Fluxo de dados</span><br><br></center><br>
-    <center><button style="background: radial-gradient(circle, rgba(17,132,205,1) 0%, rgba(0,212,255,1) 0%, rgba(0,110,182,1) 0%, rgba(0,87,148,1) 76%, rgba(0,186,223,1) 94%, rgba(0,186,223,1) 100%);" id="bttn_abrir_desc3" class="btn btn-primary">Ver mais... 🡳</button></center>
+    <center><button style="background: radial-gradient(circle, rgba(17,132,205,1) 0%, rgba(0,212,255,1) 0%, rgba(0,110,182,1) 0%, rgba(0,87,148,1) 76%, rgba(0,186,223,1) 94%, rgba(0,186,223,1) 100%);" id="bttn_abrir_desc3" class="btn btn-primary">Ver mais... <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-down-circle-fill" viewBox="0 0 16 16"><path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4.5a.5.5 0 0 0-1 0v5.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V4.5z"/></svg></button></center>
     <p style="display:none" id="text_desc3" class="textos"><?=$desc_func[2]?></p>
     </div>
   </div>

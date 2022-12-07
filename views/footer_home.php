@@ -157,7 +157,7 @@
         </div>
     </div>
     <div class="footer-copyright">
-        <p>© 2021 Copyright - TRL Sites <img style="height: 25px; width: 25px;" src="<?= $img_files[12]?>"></p>
+        <p>©2022 Copyright - TRL Sites <img style="height: 25px; width: 25px;" src="<?= $img_files[12]?>"></p>
     </div>
 </footer>
 

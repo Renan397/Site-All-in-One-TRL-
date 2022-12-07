@@ -1,3 +1,8 @@
+<?php
+include_once "config/config.php";
+$css_file = $css."home.css";
+?>
+<link rel="stylesheet" href="<?=$css_file?>">
 <div class="container">
 <form method="POST" action="./Source/Database/query.php" class="row g-3">
   <div class="col-md-6">

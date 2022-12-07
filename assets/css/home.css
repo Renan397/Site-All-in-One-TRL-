@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Satisfy&family=Shippori+Antique+B1&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
 html {
 scroll-behavior: smooth;
 }
@@ -39,8 +43,7 @@ div, p, span, button {
 }
 
 #carouselExampleControls {
-    border-top: double 3px #0069b3;
-    border-bottom: double 3px #0069b3;
+    border: double 3px #0069b3;
     border-radius: 5px;
     width: 80%;
     height: 80%;
@@ -107,6 +110,13 @@ div, p, span, button {
     border-radius: 10%;
 }
 
+.nomes {
+    border-bottom: rgba(0,112,184,1) dashed 1px;
+    border-top: rgba(0,112,184,1) dashed 1px;
+    border-radius: 20px;
+    padding: 5px;
+}
+
 .spans_sobre {
     background: radial-gradient(circle, rgba(0,112,184,1) 0%, rgba(0,212,255,1) 0%, rgba(0,110,182,1) 0%, rgba(0,105,179,1) 65%, rgba(0,212,255,1) 100%);
     padding: 10px;
@@ -162,4 +172,10 @@ transform: scale(1.1);
 #bttn_enviar:hover {
     background-color: #0069b3;
     border: 1px solid #b3b2b2af;
+}
+@media screen and (min-width: 1440px) {
+    #carouselExampleControls {
+        width: 50%;
+        height: 50%;
+    }
 }
