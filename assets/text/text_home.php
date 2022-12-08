@@ -28,7 +28,7 @@ seu site e a sua evolução!</span></b>";
 
 $desc_func = array();
 $desc_func[0] = "Olá, sou o <b><span style='color: #01477a;'>Luciano</span></b>, gerente, cofundador e
-desenvolvedor front-end da TRL. Tenho 18 anos, sou natural de
+desenvolvedor front-end da TRL. Tenho 19 anos, sou natural de
 Fortaleza-CE. Atualmente, estou cursando informática para Internet,
 pelo Instituto Federal de Educação, Ciência e Tecnologia - Campus
 Guarulhos, na modalidade ensino médio técnico. Gosto muito de
@@ -36,7 +36,7 @@ desenvolver sistemas, sempre fui apaixonado por tecnologia, amo a
 natureza, sou apaixonado por música e adoro estar conectado com
 meus amigos e familiares.";
 $desc_func[1] = "Eu sou o <b><span style='color: #01477a;'>Renan</b></span>, cofundador e
-desenvolvedor front-end da TRL. Tenho 18 anos, sou natural de
+desenvolvedor front-end da TRL. Tenho 19 anos, sou natural de
 Guarulhos-SP, onde estou me formando em Informática para Internet,
 na modalidade ensino médio técnico, pelo IFSP (Instituto Federal de
 Educação, Ciência e Tecnologia) Campus Guarulhos. Sempre fui
@@ -45,7 +45,7 @@ coisas, a grande maioria voltada para a desenvolvimento de sistemas
 para internet. Com meus conhecimentos, desejo auxiliar a empresa a
 construir o melhor sistema para cada cliente.";
 $desc_func[2] = "Eu sou o <b><span style='color: #01477a;'>Thiago</b></span>, cofundador e desenvolvedor
-back-end da TRL. Tenho 18 anos, sou natural de Guarulhos-SP, e estou
+back-end da TRL. Tenho 19 anos, sou natural de Guarulhos-SP, e estou
 cursando Informática para internet, pelo Instituto Federal de Tecnologia
 e Ciências – Campus Guarulhos. Tenho prazer em desenvolver
 sistemas e realizar os sonhos dos nossos clientes com um back-end
