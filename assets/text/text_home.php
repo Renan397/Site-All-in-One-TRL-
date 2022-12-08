@@ -22,8 +22,7 @@ apresentam.<br>";
 $txt_historia2 = "Por outro lado, nossa logomarca enfatiza a importância do uso da
 Internet, pois com ela é possível estabelecer conexões com todos os lugares
 do planeta, formando assim uma conexão extraordinária que pode mudar
-completamente a sociedade. Como ideia principal, que é buscar o
-desenvolvimento profissional de nossos clientes, a <b><span style='color: #01477a;'>TRL Sites</span></b> disponibiliza <b><span style='color: #01477a;'>o
+completamente a sociedade. Como ideia principal, a <b><span style='color: #01477a;'>TRL Sites</span></b> disponibiliza para o cliente <b><span style='color: #01477a;'>o
 seu site e a sua evolução!</span></b>";
 
 $desc_func = array();
